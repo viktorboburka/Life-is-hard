@@ -10,9 +10,9 @@ public class MoveAlongSpline : MonoBehaviour
 
 
     float maxSpeed = 0.02f;
-    float minSpeed = 0.005f;
+    float minSpeed = 0.01f;
     float speed = 0f;
-    float acceleration = 0.005f;
+    float acceleration = 0.01f;
     SplineAnimate splineAnimate;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
