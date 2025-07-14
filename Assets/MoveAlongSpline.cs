@@ -19,8 +19,8 @@ public class MoveAlongSpline : MonoBehaviour
     float tapMaxSpeed = 0.15f;
     float tapMinSpeed = -0.15f;
     float tapSpeed = 0f;
-    float tapAcceleration = 0.03f;
-    float tapDecceleration = 0.02f;
+    float tapAcceleration = 0.003f;
+    float tapDecceleration = 0.005f;
 
     void Start()
     {

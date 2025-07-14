@@ -19,14 +19,23 @@ public class HoverSwitchSprite : MonoBehaviour
     {
         if (!active && Input.GetMouseButtonDown(1)) {
             Camera.main.GetComponent<CameraControls>().TransitionToOriginal();
+            AudioSource music = SoundManager.Instance.musicSource;
+            music.DOFade(0.0f, 0.5f);
             DOVirtual.DelayedCall(0.5f, () => {
                 active = true;
                 ResetSprites();
+                music.Stop();
             });
+            
         }
         if (Input.GetMouseButtonDown(0) && active && hoverSprite.activeInHierarchy) {
             Camera.main.GetComponent<CameraControls>().TransitionTo(transform.position);
             active = false;
+            AudioSource music = SoundManager.Instance.musicSource;
+            music.Play();
+            music.volume = 0f;
+            music.DOFade(1.0f, 0.5f);
+
         }
     }
 
