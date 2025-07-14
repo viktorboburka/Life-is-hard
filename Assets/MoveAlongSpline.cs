@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Splines;
 
@@ -15,14 +16,49 @@ public class MoveAlongSpline : MonoBehaviour
     float acceleration = 0.01f;
     SplineAnimate splineAnimate;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    float tapMaxSpeed = 0.15f;
+    float tapMinSpeed = -0.15f;
+    float tapSpeed = 0f;
+    float tapAcceleration = 0.03f;
+    float tapDecceleration = 0.02f;
+
     void Start()
     {
         splineAnimate = GetComponent<SplineAnimate>();
     }
 
-    // Update is called once per frame
     void Update()
+    {
+        //HoldControlsUpdate();
+        TapControlsUpdate();
+    }
+    
+    void TapControlsUpdate() {
+        bool currentKeyPress = Input.GetKeyDown(key);
+        if (currentKeyPress) {
+            tapSpeed += tapAcceleration;
+            tapSpeed = Mathf.Clamp(tapSpeed, tapMinSpeed, tapMaxSpeed);
+
+            progress += tapSpeed;
+        }
+        else {
+            tapSpeed -= tapDecceleration * Time.deltaTime;
+            //decceleration is 2x faster if the lip is moving up
+            if (tapSpeed > 0f) tapSpeed -= tapDecceleration * Time.deltaTime;
+            tapSpeed = Mathf.Clamp(tapSpeed, tapMinSpeed, tapMaxSpeed);
+
+            progress += tapSpeed;
+        }
+        progress = Mathf.Clamp(progress, 0f, 0.999f);
+        if (progress >= 0.998f) tapSpeed /= 2;
+        if (progress < 0.001f) tapSpeed = 0;
+
+        splineAnimate.ElapsedTime = progress;
+
+        lastKeyPressed = Input.GetKey(key);
+    }
+
+    void HoldControlsUpdate()
     {
         bool currentKeyPress = Input.GetKey(key);
         if (currentKeyPress) {
