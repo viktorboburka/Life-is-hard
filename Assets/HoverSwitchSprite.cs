@@ -8,7 +8,7 @@ public class HoverSwitchSprite : MonoBehaviour
 
     [SerializeField] GameObject hoverSprite;
     [SerializeField] GameObject normalSprite;
-    List<AudioSource> monologues = new List<AudioSource>();
+    [SerializeField] List<AudioSource> monologues = new List<AudioSource>();
 
     public bool active = true;
     public bool done = false;
@@ -65,11 +65,11 @@ public class HoverSwitchSprite : MonoBehaviour
 
         DOVirtual.DelayedCall(cam.zoomDuration, () =>
         {
-
+            StartCoroutine(PlayMonologues());
         });
     }
 
-    IEnumerator playMonologues() {
+    IEnumerator PlayMonologues() {
         foreach (AudioSource monologue in monologues) {
             monologue.Play();
             yield return new WaitForSeconds(monologue.clip.length);

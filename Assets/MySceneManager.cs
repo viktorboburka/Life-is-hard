@@ -43,9 +43,8 @@ public class MySceneManager : MonoBehaviour
 
     void TriggerLevelStart() {
         Debug.Log("playing intro monologue");
-        //introMonologue.Play();
-        //DOVirtual.DelayedCall(introMonologue.clip.length, () => gameRunning = true);
-        gameRunning = true;
+        introMonologue.Play();
+        DOVirtual.DelayedCall(introMonologue.clip.length, () => gameRunning = true);
 
     }
 
@@ -57,6 +56,5 @@ public class MySceneManager : MonoBehaviour
         postCardFlipper.FlipPostCard();
         Debug.Log("playing outro monologue");
         DOVirtual.DelayedCall(postCardFlipper.flipDuration + 0.5f, () => outroMonologue.Play()).OnComplete(() => SceneManager.LoadScene(0));
-        //DOVirtual.DelayedCall(outroMonologue.clip.length, () => SceneManager.LoadScene(0));
     }
 }
