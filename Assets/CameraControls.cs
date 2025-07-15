@@ -8,6 +8,8 @@ public class CameraControls : MonoBehaviour
     float originalZoom;
     float closeUpZoom = 4.79f;
 
+
+    public float zoomDuration = 1.0f;
     public bool transitioning = false;
 
     void Start() {
@@ -17,13 +19,13 @@ public class CameraControls : MonoBehaviour
 
     public void TransitionTo(Vector3 position) {
         transitioning = true;
-        transform.DOMove(position + new Vector3(0, 0, -100), 0.5f).SetEase(Ease.InOutSine);
-        GetComponent<Camera>().DOOrthoSize(closeUpZoom, 0.5f).SetEase(Ease.InOutSine).OnComplete(() => transitioning = false);
+        transform.DOMove(position + new Vector3(0, 0, -100), zoomDuration).SetEase(Ease.InOutSine);
+        GetComponent<Camera>().DOOrthoSize(closeUpZoom, zoomDuration).SetEase(Ease.InOutSine).OnComplete(() => transitioning = false);
     }
 
     public void TransitionToOriginal() {
         transitioning = true;
-        transform.DOMove(originalPos, 0.5f).SetEase(Ease.InOutSine);
-        GetComponent<Camera>().DOOrthoSize(originalZoom, 0.5f).SetEase(Ease.InOutSine).OnComplete(() => transitioning = false);
+        transform.DOMove(originalPos, zoomDuration).SetEase(Ease.InOutSine);
+        GetComponent<Camera>().DOOrthoSize(originalZoom, zoomDuration).SetEase(Ease.InOutSine).OnComplete(() => transitioning = false);
     }
 }
