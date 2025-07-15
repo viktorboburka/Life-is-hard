@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.pixelrouge.parallaxersystemforunity": {
+      "version": "https://github.com/PixelRubro/ParallaxerSystemForUnity.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "6bdddb5cedbe46381412449b65ad63a77b9fb97f"
+    },
     "com.unity.2d.animation": {
       "version": "10.1.4",
       "depth": 1,
