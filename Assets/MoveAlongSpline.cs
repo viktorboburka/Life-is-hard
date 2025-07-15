@@ -7,7 +7,7 @@ public class MoveAlongSpline : MonoBehaviour
 
     [SerializeField] KeyCode key;
     bool lastKeyPressed;
-    float progress = 0f;
+    public float progress = 0f;
 
 
     float maxSpeed = 0.02f;
@@ -22,6 +22,8 @@ public class MoveAlongSpline : MonoBehaviour
     float tapAcceleration = 0.003f;
     float tapDecceleration = 0.005f;
 
+    public bool doneMoving = false;
+
     void Start()
     {
         splineAnimate = GetComponent<SplineAnimate>();
@@ -29,6 +31,7 @@ public class MoveAlongSpline : MonoBehaviour
 
     void Update()
     {
+        if (doneMoving) return;
         //HoldControlsUpdate();
         TapControlsUpdate();
     }

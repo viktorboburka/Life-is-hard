@@ -298,6 +298,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: 106
+  progress: 0
+  doneMoving: 0
 --- !u!114 &25191431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -812,6 +814,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: 112
+  progress: 0
+  doneMoving: 0
 --- !u!114 &378738663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1260,6 +1264,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: 263
+  progress: 0
+  doneMoving: 0
 --- !u!114 &724356612
 MonoBehaviour:
   m_ObjectHideFlags: 0
