@@ -34,14 +34,14 @@ public class HoverSwitchSprite : MonoBehaviour
 
     void OnMouseEnter()
     {
-        if (!active || done) return;
+        if (!active || done || !MySceneManager.Instance.gameRunning) return;
         hoverSprite.SetActive(true);
         normalSprite.SetActive(false);
     }
 
     void OnMouseExit()
     {
-        if (!active || done) return;
+        if (!active || done || !MySceneManager.Instance.gameRunning) return;
         hoverSprite.SetActive(false);
         normalSprite.SetActive(true);
     }
@@ -93,6 +93,7 @@ public class HoverSwitchSprite : MonoBehaviour
             active = true;
             //ResetSprites();
             music.Stop();
+            MySceneManager.Instance.gameRunning = true;
         });
     }
 
