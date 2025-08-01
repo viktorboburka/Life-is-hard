@@ -774,10 +774,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3820815482479253787, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
-      propertyPath: Loop
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3820815482479253787, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Pitch
       value: 1.2
       objectReference: {fileID: 0}
@@ -789,10 +785,6 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: c2df678002575b54d93e2576882c8e90, type: 3}
-    - target: {fileID: 3820815482479253787, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4270983701127373906, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.970001
