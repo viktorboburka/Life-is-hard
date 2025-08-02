@@ -1,5 +1,7 @@
+using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using TMPro;
 using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -11,6 +13,20 @@ public class MySceneManager : MonoBehaviour
     [SerializeField] AudioSource introMonologue;
     [SerializeField] AudioSource outroMonologue;
     [SerializeField] int nextSceneIdx = 0;
+    [SerializeField] GameObject subtitlesContainer;
+    [SerializeField] List<TextMeshProUGUI> introsubtitles;
+    [SerializeField] List<float> introSubtitlesDurations;
+    [SerializeField] List<TextMeshProUGUI> outrosubtitles;
+    [SerializeField] List<float> outroSubtitlesDurations;
+
+    [System.Serializable] public class MonologueListWrapper {
+        public List<TextMeshProUGUI> subtitles;
+        public List<float> durations;
+    }
+    [System.Serializable] public class ListWrapperFloat {
+        public List<float> durations;
+    }
+    [SerializeField] List<MonologueListWrapper> monologuesSubtitles;
 
     List<HoverSwitchSprite> allFaces;
 
@@ -47,12 +63,42 @@ public class MySceneManager : MonoBehaviour
         }
     }
 
-    void TriggerLevelStart() {
+    void TriggerLevelStart()
+    {
         if (introMonologue == null) return;
         Debug.Log("playing intro monologue");
         introMonologue.Play();
-        DOVirtual.DelayedCall(introMonologue.clip.length, () => gameRunning = true);
 
+        StartCoroutine(PlayIntroSubtitles());
+
+        DOVirtual.DelayedCall(introMonologue.clip.length, () => {
+            gameRunning = true;        
+        });
+
+    }
+
+    IEnumerator PlayIntroSubtitles()
+    {
+        subtitlesContainer.SetActive(true);
+        for (int i = 0; i < introsubtitles.Count; i++)
+        {
+            introsubtitles[i].gameObject.SetActive(true);
+            yield return new WaitForSeconds(introSubtitlesDurations[i]);
+            introsubtitles[i].gameObject.SetActive(false);
+        }
+        subtitlesContainer.SetActive(false);
+    }
+
+    IEnumerator PlayOutroSubtitles()
+    {
+        subtitlesContainer.SetActive(true);
+        for (int i = 0; i < outrosubtitles.Count; i++)
+        {
+            outrosubtitles[i].gameObject.SetActive(true);
+            yield return new WaitForSeconds(outroSubtitlesDurations[i]);
+            outrosubtitles[i].gameObject.SetActive(false);
+        }
+        subtitlesContainer.SetActive(false);
     }
 
     [ContextMenu("Trigger Level End")]
@@ -61,16 +107,39 @@ public class MySceneManager : MonoBehaviour
         gameRunning = false;
         PostCardFlipper postCardFlipper = FindAnyObjectByType<PostCardFlipper>();
         postCardFlipper.FlipPostCard();
-        Debug.Log("playing outro monologue");
-        DOVirtual.DelayedCall(postCardFlipper.flipDuration + 0.5f, () => outroMonologue.Play()).OnComplete(() => LoadScene(nextSceneIdx));
+        DOVirtual.DelayedCall(postCardFlipper.flipDuration + 0.5f, () => {
+            Debug.Log("playing outro monologue");
+            StartCoroutine(PlayOutroSubtitles());
+
+        });
+        float delay = postCardFlipper.flipDuration + 0.5f;
+        foreach (float t in outroSubtitlesDurations)
+        {
+            delay += t;
+        }
+        DOVirtual.DelayedCall(delay, () => outroMonologue.Play()).OnComplete(() => LoadScene(nextSceneIdx));
     }
 
-    public void LoadScene (int idx) {
-        if (fade) {
+    public void LoadScene(int idx)
+    {
+        if (fade)
+        {
             fade.DOFade(1f, 0.5f).OnComplete(() => SceneManager.LoadScene(idx));
         }
         else
             SceneManager.LoadScene(idx);
+    }
+
+    public IEnumerator PlayMonologueSubtitles(int monologueIdx) {
+        MonologueListWrapper monologue = monologuesSubtitles[monologueIdx];
+        subtitlesContainer.SetActive(true);
+        for (int i = 0; i < monologue.subtitles.Count; i++)
+        {
+            monologue.subtitles[i].gameObject.SetActive(true);
+            yield return new WaitForSeconds(monologue.durations[i]);
+            monologue.subtitles[i].gameObject.SetActive(false);
+        }
+        subtitlesContainer.SetActive(false);
     }
 
 }

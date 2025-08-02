@@ -858,10 +858,6 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 266f5f20032b9ef4fb82cc801d4390e1, type: 3}
-    - target: {fileID: 2715761440167615672, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3553468043711264086, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_Name
       value: SceneManager
@@ -910,10 +906,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-      propertyPath: nextSceneIdx
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 7590934431177256264, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_Resource
       value: 
@@ -922,10 +914,6 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: e4bcf9c64160a5b46a6a80308a9bc31a, type: 3}
-    - target: {fileID: 7590934431177256264, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

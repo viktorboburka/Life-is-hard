@@ -9,6 +9,7 @@ public class HoverSwitchSprite : MonoBehaviour
     [SerializeField] GameObject hoverSprite;
     [SerializeField] GameObject normalSprite;
     [SerializeField] List<AudioSource> monologues = new List<AudioSource>();
+    [SerializeField] int monologueIdx = 0;
 
     public bool active = true;
     public bool done = false;
@@ -66,6 +67,7 @@ public class HoverSwitchSprite : MonoBehaviour
         DOVirtual.DelayedCall(cam.zoomDuration, () =>
         {
             StartCoroutine(PlayMonologues());
+            StartCoroutine(MySceneManager.Instance.PlayMonologueSubtitles(monologueIdx));
         });
     }
 

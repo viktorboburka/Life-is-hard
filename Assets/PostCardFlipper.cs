@@ -39,4 +39,8 @@ public class PostCardFlipper : MonoBehaviour
         });
     }
 
+    public float GetDuration() {
+        return flipDuration;
+    }
+
 }
