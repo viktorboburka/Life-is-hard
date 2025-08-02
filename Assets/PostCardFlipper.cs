@@ -6,6 +6,7 @@ public class PostCardFlipper : MonoBehaviour
 
     [SerializeField] Sprite front;
     [SerializeField] Sprite back;
+    [SerializeField] AudioSource flipSound;
     SpriteRenderer sr;
 
     bool flipping = false;
@@ -26,6 +27,7 @@ public class PostCardFlipper : MonoBehaviour
     public void FlipPostCard() {
         if (flipping) return;
         flipping = true;
+        flipSound.Play();
         DOVirtual.DelayedCall(flipDuration/2f, () => {
             if (sr.sprite == front) sr.sprite = back;
             else sr.sprite = front;

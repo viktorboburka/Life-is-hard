@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MouthManager : MonoBehaviour
 {
@@ -51,6 +53,8 @@ public class MouthManager : MonoBehaviour
         foreach (MoveAlongSpline piece in pieces) {
             piece.doneMoving = true;
         }
-        hoverSwitchSprite.ReturnToBigPicture();
+        DOVirtual.DelayedCall(0.5f, () => SoundManager.Instance.PlayCameraSound());
+        DOVirtual.DelayedCall(0.75f, () => MySceneManager.Instance.PlayCameraFlashAnimation());
+        DOVirtual.DelayedCall(1.5f, () => hoverSwitchSprite.ReturnToBigPicture());
     }
 }

@@ -18,6 +18,7 @@ public class MySceneManager : MonoBehaviour
     [SerializeField] List<float> introSubtitlesDurations;
     [SerializeField] List<TextMeshProUGUI> outrosubtitles;
     [SerializeField] List<float> outroSubtitlesDurations;
+    [SerializeField] Image flash;
 
     [System.Serializable] public class MonologueListWrapper {
         public List<TextMeshProUGUI> subtitles;
@@ -140,6 +141,10 @@ public class MySceneManager : MonoBehaviour
             monologue.subtitles[i].gameObject.SetActive(false);
         }
         subtitlesContainer.SetActive(false);
+    }
+
+    public void PlayCameraFlashAnimation() {
+        flash.DOFade(1f, 0.05f).OnComplete(() => flash.DOFade(0f, 0.25f));
     }
 
 }
