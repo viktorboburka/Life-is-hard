@@ -22,21 +22,25 @@ public class MoveAlongSpline : MonoBehaviour
     float tapAcceleration = 0.003f;
     float tapDecceleration = 0.005f;
 
-    public bool doneMoving = false;
+    public bool doneMoving = true;
 
     void Start()
     {
+        doneMoving = true;
         splineAnimate = GetComponent<SplineAnimate>();
     }
 
     void Update()
     {
-        if (doneMoving) return;
         //HoldControlsUpdate();
         TapControlsUpdate();
     }
     
     void TapControlsUpdate() {
+        if (doneMoving) {
+            splineAnimate.ElapsedTime = progress;
+            return;
+        }
         bool currentKeyPress = Input.GetKeyDown(key);
         if (currentKeyPress) {
             tapSpeed += tapAcceleration;
@@ -63,6 +67,10 @@ public class MoveAlongSpline : MonoBehaviour
 
     void HoldControlsUpdate()
     {
+        if (doneMoving) {
+            splineAnimate.ElapsedTime = progress;
+            return;
+        }
         bool currentKeyPress = Input.GetKey(key);
         if (currentKeyPress) {
             if (!lastKeyPressed) {

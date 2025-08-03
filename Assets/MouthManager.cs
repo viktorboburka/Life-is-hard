@@ -13,6 +13,7 @@ public class MouthManager : MonoBehaviour
     float currentHoldTime = 0f;
 
     bool ended = false;
+    public bool started = false;
 
     void OnEnable() {
         ended = false;
@@ -28,7 +29,7 @@ public class MouthManager : MonoBehaviour
     }
     void Update()
     {
-        if (ended) return;
+        if (ended || !started) return;
 
         float totalProgress = 0f;
         foreach (MoveAlongSpline piece in pieces) {
@@ -56,5 +57,13 @@ public class MouthManager : MonoBehaviour
         DOVirtual.DelayedCall(0.5f, () => SoundManager.Instance.PlayCameraSound());
         DOVirtual.DelayedCall(0.75f, () => MySceneManager.Instance.PlayCameraFlashAnimation());
         DOVirtual.DelayedCall(1.5f, () => hoverSwitchSprite.ReturnToBigPicture());
+    }
+
+    public void SetStarted(bool b) {
+        started = b;
+        foreach (MoveAlongSpline piece in pieces) {
+            piece.doneMoving = !b;
+        }
+
     }
 }

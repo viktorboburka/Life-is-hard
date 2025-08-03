@@ -24,9 +24,6 @@ public class MySceneManager : MonoBehaviour
         public List<TextMeshProUGUI> subtitles;
         public List<float> durations;
     }
-    [System.Serializable] public class ListWrapperFloat {
-        public List<float> durations;
-    }
     [SerializeField] List<MonologueListWrapper> monologuesSubtitles;
 
     List<HoverSwitchSprite> allFaces;
@@ -72,10 +69,26 @@ public class MySceneManager : MonoBehaviour
 
         StartCoroutine(PlayIntroSubtitles());
 
-        DOVirtual.DelayedCall(introMonologue.clip.length, () => {
+        DOVirtual.DelayedCall(GetIntroSubtitlesLength(), () => {
             gameRunning = true;        
         });
 
+    }
+
+    float GetIntroSubtitlesLength() {
+        float total = 0f;
+        foreach (float duration in introSubtitlesDurations) {
+            total += duration;
+        }
+        return total;
+    }
+
+    float GetOutroSubtitlesLength() {
+        float total = 0f;
+        foreach (float duration in outroSubtitlesDurations) {
+            total += duration;
+        }
+        return total;
     }
 
     IEnumerator PlayIntroSubtitles()
@@ -108,17 +121,15 @@ public class MySceneManager : MonoBehaviour
         gameRunning = false;
         PostCardFlipper postCardFlipper = FindAnyObjectByType<PostCardFlipper>();
         postCardFlipper.FlipPostCard();
-        DOVirtual.DelayedCall(postCardFlipper.flipDuration + 0.5f, () => {
+        float delay = postCardFlipper.flipDuration + 0.5f;
+
+        DOVirtual.DelayedCall(delay, () => {
             Debug.Log("playing outro monologue");
             StartCoroutine(PlayOutroSubtitles());
 
         });
-        float delay = postCardFlipper.flipDuration + 0.5f;
-        foreach (float t in outroSubtitlesDurations)
-        {
-            delay += t;
-        }
-        DOVirtual.DelayedCall(delay, () => outroMonologue.Play()).OnComplete(() => LoadScene(nextSceneIdx));
+        
+        DOVirtual.DelayedCall(GetOutroSubtitlesLength() + delay, () => outroMonologue.Play()).OnComplete(() => LoadScene(nextSceneIdx));
     }
 
     public void LoadScene(int idx)
@@ -145,6 +156,14 @@ public class MySceneManager : MonoBehaviour
 
     public void PlayCameraFlashAnimation() {
         flash.DOFade(1f, 0.05f).OnComplete(() => flash.DOFade(0f, 0.25f));
+    }
+
+    public float GetMonologueDuration(int idx) {
+        float total = 0f;
+        foreach (float duration in monologuesSubtitles[idx].durations) {
+            total += duration;
+        }
+        return total;
     }
 
 }

@@ -51,6 +51,8 @@ MonoBehaviour:
   hoverSprite: {fileID: 7285916754381181284}
   normalSprite: {fileID: 3638488008438097929}
   monologues: []
+  monologueIdx: 0
+  mouthManager: {fileID: 1527700671018373199}
   active: 1
   done: 0
 --- !u!60 &2733718513207653080
@@ -359,6 +361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverSwitchSprite: {fileID: 5691014221337853992}
+  started: 0
 --- !u!1 &7285916754381181284
 GameObject:
   m_ObjectHideFlags: 0

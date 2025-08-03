@@ -461,6 +461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   front: {fileID: -442718926319821364, guid: 8c461887295a2ce4dac75e6f4048448a, type: 3}
   back: {fileID: -442718926319821364, guid: 5816eeedceeab534db8707743d69275b, type: 3}
+  flipSound: {fileID: 0}
   flipDuration: 1.5
 --- !u!4 &966611276 stripped
 Transform:
@@ -482,7 +483,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1220119137867077281, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Name
-      value: InteractiveFace (1)
+      value: WolfDogChild
       objectReference: {fileID: 0}
     - target: {fileID: 1406386110264014267, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -555,6 +556,10 @@ PrefabInstance:
     - target: {fileID: 4787155213167874870, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.3369994
+      objectReference: {fileID: 0}
+    - target: {fileID: 5691014221337853992, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: monologueIdx
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5691014221337853992, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: monologues.Array.size
@@ -763,7 +768,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1220119137867077281, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Name
-      value: InteractiveFace
+      value: Grandma
       objectReference: {fileID: 0}
     - target: {fileID: 1406386110264014267, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -850,6 +855,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1663976810136123909, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: m_text
+      value: Back in my day *I* was the queen of windsurfing riding the waves all
+        day, having all the attention. Now I'm on babysitting duty.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388819630594617165, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: m_text
+      value: Thanks for that all-natural sunscreen you gave me, although I got a
+        bit of a sunburn. (I'm glad Sr. is watching the kids, I can really relax
+        now) Love vacations!
+      objectReference: {fileID: 0}
     - target: {fileID: 2715761440167615672, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_Resource
       value: 
@@ -910,9 +926,78 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3613783211018078191, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: m_text
+      value: "Dear sister, greetings from the beach! It\u2019s been a week of us
+        picking seashells, surfing, and having a good time! Everything is great! "
+      objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: nextSceneIdx
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: outrosubtitles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: monologuesSubtitles.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: outroSubtitlesDurations.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: 'introSubtitlesDurations.Array.data[0]'
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: 'introSubtitlesDurations.Array.data[1]'
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: 'outroSubtitlesDurations.Array.data[0]'
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: monologuesSubtitles.Array.data[0].durations.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: monologuesSubtitles.Array.data[0].subtitles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: monologuesSubtitles.Array.data[1].durations.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: monologuesSubtitles.Array.data[1].subtitles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: 'monologuesSubtitles.Array.data[0].durations.Array.data[0]'
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: 'monologuesSubtitles.Array.data[0].subtitles.Array.data[0]'
+      value: 
+      objectReference: {fileID: 4986841796369757742}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: 'monologuesSubtitles.Array.data[1].durations.Array.data[0]'
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: 'monologuesSubtitles.Array.data[1].subtitles.Array.data[0]'
+      value: 
+      objectReference: {fileID: 4986841796369757741}
+    - target: {fileID: 4762046759904219104, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: m_text
+      value: 'Sad woof
+
+        Growl
+
+        My ice cream fell'
       objectReference: {fileID: 0}
     - target: {fileID: 7590934431177256264, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_Resource
@@ -926,11 +1011,41 @@ PrefabInstance:
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7919262292072083253, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: m_text
+      value: Sad that our vacation is coming to an end, but to be honest, I'm looking
+        forward to enjoy some peace at home.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8292634611255741322, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+    - {fileID: 7908355391178200801, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+    - {fileID: 7080701848687388852, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+--- !u!114 &4986841796369757741 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4762046759904219104, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+  m_PrefabInstance: {fileID: 4986841796369757740}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4986841796369757742 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1663976810136123909, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+  m_PrefabInstance: {fileID: 4986841796369757740}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8148921059442079935
 PrefabInstance:
   m_ObjectHideFlags: 0

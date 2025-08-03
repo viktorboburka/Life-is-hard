@@ -447,12 +447,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4296313425554101616, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      propertyPath: m_Name
+      value: Mom
+      objectReference: {fileID: 0}
+    - target: {fileID: 7676262038626594145, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -442718926319821364, guid: 8c461887295a2ce4dac75e6f4048448a, type: 3}
     - target: {fileID: 8294386419192990460, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
       propertyPath: m_Name
       value: PostCard
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2966698637111428597, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+    - {fileID: 1909455378894399702, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
@@ -532,9 +542,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3613783211018078191, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: m_text
+      value: "Dear Sister, I\u2019m so done.\r\nI understand why our parents seemed
+        so tired after vacations.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: introsubtitles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: outrosubtitles.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: monologuesSubtitles.Array.size
-      value: 2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: introSubtitlesDurations.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: outroSubtitlesDurations.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: 'introSubtitlesDurations.Array.data[0]'
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: monologuesSubtitles.Array.data[0].durations.Array.size
@@ -589,7 +624,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: e4bcf9c64160a5b46a6a80308a9bc31a, type: 3}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 205122739633547936, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}

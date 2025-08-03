@@ -10,6 +10,7 @@ public class HoverSwitchSprite : MonoBehaviour
     [SerializeField] GameObject normalSprite;
     [SerializeField] List<AudioSource> monologues = new List<AudioSource>();
     [SerializeField] int monologueIdx = 0;
+    [SerializeField] MouthManager mouthManager;
 
     public bool active = true;
     public bool done = false;
@@ -68,6 +69,7 @@ public class HoverSwitchSprite : MonoBehaviour
         {
             StartCoroutine(PlayMonologues());
             StartCoroutine(MySceneManager.Instance.PlayMonologueSubtitles(monologueIdx));
+            DOVirtual.DelayedCall(MySceneManager.Instance.GetMonologueDuration(monologueIdx), () => mouthManager.SetStarted(true));
         });
     }
 
