@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 6d03b134b84e51a498dc9e0c9cbf9bd1
+guid: ca55945906e2cad4d818f8afe2517c0e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8010657799410552898
-    second: background3_0
+      213: -8136818572682042822
+    second: S1_toddler_0
+  - first:
+      213: 8906963230751546735
+    second: S1_toddler_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 4.35
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,23 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: background3_0
+      name: S1_toddler_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 720
-        height: 720
-      alignment: 9
-      pivot: {x: 0.49999997, y: 0.4}
+        x: 331
+        y: 234
+        width: 145
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ebfebe87c2d64d090800000000000000
-      internalID: -8010657799410552898
+      spriteID: a326c7d6e96341f80800000000000000
+      internalID: -8136818572682042822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S1_toddler_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 205
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d59640ed3eb9b70800000000000000
+      internalID: 8906963230751546735
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8dd5df66940167745af986905148da0a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      background3_0: -8010657799410552898
+      S1_toddler_0: -8136818572682042822
+      S1_toddler_1: 8906963230751546735
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

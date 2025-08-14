@@ -126,10 +126,10 @@ public class MySceneManager : MonoBehaviour
         DOVirtual.DelayedCall(delay, () => {
             Debug.Log("playing outro monologue");
             StartCoroutine(PlayOutroSubtitles());
-
+            outroMonologue.Play();
         });
         
-        DOVirtual.DelayedCall(GetOutroSubtitlesLength() + delay, () => outroMonologue.Play()).OnComplete(() => LoadScene(nextSceneIdx));
+        DOVirtual.DelayedCall(GetOutroSubtitlesLength() + delay, () => LoadScene(nextSceneIdx));
     }
 
     public void LoadScene(int idx)
