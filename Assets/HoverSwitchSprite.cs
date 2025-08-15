@@ -11,6 +11,7 @@ public class HoverSwitchSprite : MonoBehaviour
     [SerializeField] List<AudioSource> monologues = new List<AudioSource>();
     [SerializeField] int monologueIdx = 0;
     [SerializeField] MouthManager mouthManager;
+    [SerializeField] AudioSource sayCheeseSound;
 
     public bool active = true;
     public bool done = false;
@@ -70,10 +71,15 @@ public class HoverSwitchSprite : MonoBehaviour
                 AudioSource music = SoundManager.Instance.musicSource;
                 music.Play();
                 music.volume = 0f;
-                music.DOFade(1.0f, 3.0f);
+                music.DOFade(1.0f, 5.0f);
 
-                mouthManager.SetStarted(true);
-                MySceneManager.Instance.ShowControlsHint();
+                Debug.Log("saying cheese");
+                DOVirtual.DelayedCall(0.5f, () => sayCheeseSound.Play());
+                DOVirtual.DelayedCall(sayCheeseSound.clip.length + 0.75f, () =>
+                {
+                    mouthManager.SetStarted(true);
+                    MySceneManager.Instance.ShowControlsHint();
+                });
             });
         });
     }

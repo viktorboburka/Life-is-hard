@@ -280,6 +280,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -4502973873089303205, guid: e705b675fd3738b4f9cdac387a25c56f, type: 3}
+    - target: {fileID: 4503170244660491914, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 7ceeead2c48b2a44b9103ed39d7e2a96, type: 3}
+    - target: {fileID: 4503170244660491914, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7ceeead2c48b2a44b9103ed39d7e2a96, type: 3}
     - target: {fileID: 4787155213167874870, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.7220001
