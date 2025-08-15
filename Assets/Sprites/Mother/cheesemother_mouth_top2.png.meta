@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cheesemother_mouth_top2_0: 2812589519555669881
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

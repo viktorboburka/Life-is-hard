@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cheesefather_mouth_top5_0: -5826305521930883318
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
