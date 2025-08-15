@@ -1305,9 +1305,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3493870492696667425, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      propertyPath: m_text
+      value: "Dear sister, greetings from the beach! It\u2019s been a week of us
+        picking seashells, surfing, and having a good time! Everything is great!
+        Thanks for that all-natural sunscreen you gave me, although I got a bit of
+        a sunburn. Love vacations!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512345977336068437, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -39.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6360158693227601636, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6429203132209481379, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      propertyPath: _text
+      value: Sad that our vacation is coming to an end, but to be honest, I'm looking
+        forward to enjoy some peace at home.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6429203132209481379, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      propertyPath: defaultBehaviorsTags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8294386419192990460, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
       propertyPath: m_Name
       value: PostCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 8718579850131012021, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      propertyPath: m_text
+      value: Sad that our vacation is coming to an end, but to be honest, I'm looking
+        forward to enjoy some peace at home.
       objectReference: {fileID: 0}
     - target: {fileID: 8870778228537985850, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1350,7 +1379,13 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2305667164353911692, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1027201119}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2966596213839350518, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 8012104298740767015, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
 --- !u!4 &2115963167 stripped
 Transform:
@@ -1370,6 +1405,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1141618647753791777, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: m_text
+      value: Oh no, my ice cream fell down on the ground.
+      objectReference: {fileID: 0}
     - target: {fileID: 1663976810136123909, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_text
       value: Back in my day *I* was the queen of windsurfing riding the waves all
@@ -1395,6 +1434,11 @@ PrefabInstance:
     - target: {fileID: 1792063025178029112, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: defaultAppearancesTags.Array.size
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327469739850304739, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: m_text
+      value: "Dear sister, greetings from the beach! It\u2019s been a week of us
+        picking seashells, surfing, and having a good time! Everything is great!"
       objectReference: {fileID: 0}
     - target: {fileID: 2388819630594617165, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_text
@@ -1492,16 +1536,8 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-      propertyPath: outrosubtitles.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: monologuesSubtitles.Array.size
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-      propertyPath: outroSubtitlesDurations.Array.size
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: 'introSubtitlesDurations.Array.data[0]'
@@ -1593,6 +1629,11 @@ PrefabInstance:
       propertyPath: m_text
       value: Oh no, my ice cream fell down on the ground.
       objectReference: {fileID: 0}
+    - target: {fileID: 4789239697153924873, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: m_text
+      value: Back in my day *I* was the queen of windsurfing, riding the waves all
+        day, having all the attention. Now I'm on babysitting duty.
+      objectReference: {fileID: 0}
     - target: {fileID: 6195876142231348232, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: _text
       value: My ice cream fell
@@ -1646,10 +1687,20 @@ PrefabInstance:
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7813569694275752286, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: m_text
+      value: "Sad that our vacation is coming to an end, but to be honest, I'm looking
+        forward to enjoy some peace at home.\r"
+      objectReference: {fileID: 0}
     - target: {fileID: 7919262292072083253, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_text
       value: Sad that our vacation is coming to an end, but to be honest, I'm looking
         forward to enjoy some peace at home.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8498368879138014049, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: m_text
+      value: Thanks for that all-natural sunscreen you gave me, although I got a
+        bit of a sunburn. Love vacations!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -1661,7 +1712,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
 --- !u!114 &4986841796369757741 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4762046759904219104, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1141618647753791777, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
   m_PrefabInstance: {fileID: 4986841796369757740}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -1672,7 +1723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &4986841796369757742 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1663976810136123909, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4789239697153924873, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
   m_PrefabInstance: {fileID: 4986841796369757740}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}

@@ -83,7 +83,8 @@ public class MySceneManager : MonoBehaviour
         return total;
     }
 
-    float GetOutroSubtitlesLength() {
+    float GetOutroSubtitlesLength(PostCardFlipper postCardFlipper) {
+        return postCardFlipper.GetWritingDuration();
         float total = 0f;
         foreach (float duration in outroSubtitlesDurations) {
             total += duration;
@@ -129,7 +130,7 @@ public class MySceneManager : MonoBehaviour
             outroMonologue.Play();
         });
         
-        DOVirtual.DelayedCall(GetOutroSubtitlesLength() + delay, () => LoadScene(nextSceneIdx));
+        DOVirtual.DelayedCall(GetOutroSubtitlesLength(postCardFlipper) + delay, () => LoadScene(nextSceneIdx));
     }
 
     public void LoadScene(int idx)

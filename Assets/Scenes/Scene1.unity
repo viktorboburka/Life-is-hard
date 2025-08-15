@@ -758,11 +758,11 @@ PrefabInstance:
     - target: {fileID: 3652900950795349045, guid: abcf51514fa0686459807951b64e0860, type: 3}
       propertyPath: m_Resource
       value: 
-      objectReference: {fileID: 8300000, guid: f2be51a2e1ee3ef4da1576afec2c232e, type: 3}
+      objectReference: {fileID: 8300000, guid: 019304e860a3d7d46a72389d31a0c175, type: 3}
     - target: {fileID: 3652900950795349045, guid: abcf51514fa0686459807951b64e0860, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: f2be51a2e1ee3ef4da1576afec2c232e, type: 3}
+      objectReference: {fileID: 8300000, guid: 019304e860a3d7d46a72389d31a0c175, type: 3}
     - target: {fileID: 4116061142846476575, guid: abcf51514fa0686459807951b64e0860, type: 3}
       propertyPath: m_MaxSpeed
       value: 0.4219817
@@ -1138,6 +1138,14 @@ PrefabInstance:
       propertyPath: m_Pitch
       value: 1.2
       objectReference: {fileID: 0}
+    - target: {fileID: 5187755573574230326, guid: 6d94004366b1a814c852342536a2685a, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 24c1bd9ebb1369545a1148630a17d613, type: 3}
+    - target: {fileID: 5187755573574230326, guid: 6d94004366b1a814c852342536a2685a, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 24c1bd9ebb1369545a1148630a17d613, type: 3}
     - target: {fileID: 5313484814540790911, guid: 6d94004366b1a814c852342536a2685a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 39.47
@@ -1606,19 +1614,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: outrosubtitles.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: 'outrosubtitles.Array.data[1]'
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-      propertyPath: monologuesSubtitles.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: outroSubtitlesDurations.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: 'introSubtitlesDurations.Array.data[0]'
@@ -1636,38 +1640,6 @@ PrefabInstance:
       propertyPath: 'outroSubtitlesDurations.Array.data[1]'
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-      propertyPath: monologuesSubtitles.Array.data[0].durations.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-      propertyPath: monologuesSubtitles.Array.data[0].subtitles.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-      propertyPath: monologuesSubtitles.Array.data[1].durations.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-      propertyPath: monologuesSubtitles.Array.data[1].subtitles.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-      propertyPath: 'monologuesSubtitles.Array.data[0].durations.Array.data[0]'
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-      propertyPath: 'monologuesSubtitles.Array.data[0].subtitles.Array.data[0]'
-      value: 
-      objectReference: {fileID: 4986841796369757742}
-    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-      propertyPath: 'monologuesSubtitles.Array.data[1].durations.Array.data[0]'
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-      propertyPath: 'monologuesSubtitles.Array.data[1].subtitles.Array.data[0]'
-      value: 
-      objectReference: {fileID: 4986841796369757741}
     - target: {fileID: 4210745333940702018, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: _text
       value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies
@@ -1714,10 +1686,6 @@ PrefabInstance:
       propertyPath: m_text
       value: I love my wife, but she drives so fast it feels like someone is after
         us. I hope we survive the rest of the trip.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6097776414699245631, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4278645247
       objectReference: {fileID: 0}
     - target: {fileID: 6195876142231348232, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: _text
@@ -1781,34 +1749,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 8292634611255741322, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-    - {fileID: 7908355391178200801, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-    - {fileID: 7080701848687388852, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-    - {fileID: 4292394339961885399, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
---- !u!114 &4986841796369757741 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4762046759904219104, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-  m_PrefabInstance: {fileID: 4986841796369757740}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &4986841796369757742 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1663976810136123909, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-  m_PrefabInstance: {fileID: 4986841796369757740}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &8148921059442079935
 PrefabInstance:
   m_ObjectHideFlags: 0

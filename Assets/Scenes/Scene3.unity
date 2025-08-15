@@ -119,9 +119,9 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &434244120 stripped
+--- !u!114 &279734429 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5298319829638162895, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4789239697153924873, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
   m_PrefabInstance: {fileID: 4986841796369757740}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -714,17 +714,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &894027821 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4762046759904219104, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-  m_PrefabInstance: {fileID: 4986841796369757740}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &947407021
 GameObject:
   m_ObjectHideFlags: 0
@@ -812,17 +801,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &981310695 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1663976810136123909, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-  m_PrefabInstance: {fileID: 4986841796369757740}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1136290120
 GameObject:
   m_ObjectHideFlags: 0
@@ -1274,6 +1252,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 574953573973323973, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 57
+      objectReference: {fileID: 0}
+    - target: {fileID: 574953573973323973, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -30.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 574953573973323973, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -22.1
+      objectReference: {fileID: 0}
     - target: {fileID: 1167765616677087107, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.2
@@ -1322,6 +1312,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3493870492696667425, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      propertyPath: m_text
+      value: "Dear Sister, I\u2019ve been trying so hard to make this trip enjoyable
+        for everyone, but\u2026 they just seem annoyed. I'm so done.\r\n\r\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512345977336068437, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 57
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512345977336068437, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -31
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512345977336068437, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -33.8
+      objectReference: {fileID: 0}
     - target: {fileID: 4296313425554101616, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
       propertyPath: m_Name
       value: Mom
@@ -1330,6 +1337,10 @@ PrefabInstance:
       propertyPath: front
       value: 
       objectReference: {fileID: -8010657799410552898, guid: 6d03b134b84e51a498dc9e0c9cbf9bd1, type: 3}
+    - target: {fileID: 6360158693227601636, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7676262038626594145, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1341,6 +1352,10 @@ PrefabInstance:
     - target: {fileID: 8294386419192990460, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
       propertyPath: m_Name
       value: PostCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 8718579850131012021, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      propertyPath: m_text
+      value: I now understand why our parents just seemed more tired after vacations.
       objectReference: {fileID: 0}
     - target: {fileID: 8870778228537985850, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
       propertyPath: m_LocalScale.x
@@ -1403,7 +1418,13 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2712668856041061377, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1524621971}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2966596213839350518, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 8012104298740767015, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
 --- !u!4 &753176596229781370 stripped
 Transform:
@@ -1475,6 +1496,11 @@ PrefabInstance:
     - target: {fileID: 1830916436379515652, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327469739850304739, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: m_text
+      value: "Dear Sister, I\u2019ve been trying so hard to make this trip enjoyable
+        for everyone, but\u2026\r"
       objectReference: {fileID: 0}
     - target: {fileID: 2715761440167615672, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_Resource
@@ -1567,12 +1593,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: outrosubtitles.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: 'outrosubtitles.Array.data[0]'
       value: 
-      objectReference: {fileID: 4986841796369757741}
+      objectReference: {fileID: 279734429}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: monologuesSubtitles.Array.size
       value: 1
@@ -1583,7 +1609,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: outroSubtitlesDurations.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: 'introSubtitlesDurations.Array.data[0]'
@@ -1620,7 +1646,7 @@ PrefabInstance:
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: 'monologuesSubtitles.Array.data[0].subtitles.Array.data[0]'
       value: 
-      objectReference: {fileID: 981310695}
+      objectReference: {fileID: 279734429}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: 'monologuesSubtitles.Array.data[0].subtitles.Array.data[1]'
       value: 
@@ -1632,11 +1658,11 @@ PrefabInstance:
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: 'monologuesSubtitles.Array.data[1].subtitles.Array.data[0]'
       value: 
-      objectReference: {fileID: 894027821}
+      objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: 'monologuesSubtitles.Array.data[1].subtitles.Array.data[1]'
       value: 
-      objectReference: {fileID: 434244120}
+      objectReference: {fileID: 0}
     - target: {fileID: 4210745333940702018, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: _text
       value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies
@@ -1678,6 +1704,10 @@ PrefabInstance:
     - target: {fileID: 4486540398087040807, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: defaultAppearancesTags.Array.size
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789239697153924873, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: m_text
+      value: they just seem annoyed. I'm so done.
       objectReference: {fileID: 0}
     - target: {fileID: 5675327194560191268, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_IsActive
@@ -1768,17 +1798,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
---- !u!114 &4986841796369757741 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7919262292072083253, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-  m_PrefabInstance: {fileID: 4986841796369757740}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &8148921059442079935
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class PostCardFlipper : MonoBehaviour
     [SerializeField] GameObject backWriting;
     [SerializeField] AudioSource flipSound;
     SpriteRenderer sr;
+    [SerializeField] float backWritingDuration = 10f;
 
     bool flipping = false;
 
@@ -18,11 +19,6 @@ public class PostCardFlipper : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
         sr.sprite = front;
-    }
-
-    void Update()
-    {
-        if (Input.GetMouseButtonDown(1)) FlipPostCard();
     }
 
     public void FlipPostCard()
@@ -35,28 +31,44 @@ public class PostCardFlipper : MonoBehaviour
             if (sr.sprite == front)
             {
                 sr.sprite = back;
-                if (backWriting) backWriting.SetActive(true);
+                //TODO: only show old writing
+                backWriting.SetActive(true);
             }
             else
             {
                 sr.sprite = front;
-                if (backWriting) backWriting.SetActive(false);
+                backWriting.SetActive(false);
             }
 
             foreach (Transform child in transform)
             {
-                child.gameObject.SetActive(false);
+                if (child.gameObject != backWriting)
+                    child.gameObject.SetActive(false);
             }
         });
         transform.DORotate(new Vector3(0, 180, 0), flipDuration).SetEase(Ease.InOutSine).OnComplete(() =>
         {
             flipping = false;
         });
+
+        DOVirtual.DelayedCall(flipDuration * 2, () => {
+            if (sr.sprite == back)
+            {
+                //TODO: show new writing
+            }
+            else
+            {
+            }
+        });
     }
 
     public float GetDuration()
     {
         return flipDuration;
+    }
+
+    public float GetWritingDuration() {
+        return backWritingDuration;
     }
 
 }
