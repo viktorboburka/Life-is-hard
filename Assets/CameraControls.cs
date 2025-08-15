@@ -6,7 +6,7 @@ public class CameraControls : MonoBehaviour
 
     Vector3 originalPos;
     float originalZoom;
-    float closeUpZoom = 5f;//4.79f;
+    float closeUpZoom = 8f;//4.79f;
 
 
     public float zoomDuration = 1.0f;

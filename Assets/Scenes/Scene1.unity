@@ -844,17 +844,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abcf51514fa0686459807951b64e0860, type: 3}
---- !u!114 &963273692 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5664058100229985792, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-  m_PrefabInstance: {fileID: 4986841796369757740}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &974179556
 GameObject:
   m_ObjectHideFlags: 0
@@ -1155,7 +1144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5313484814540790911, guid: 6d94004366b1a814c852342536a2685a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -16.79
+      value: -18.13
       objectReference: {fileID: 0}
     - target: {fileID: 5313484814540790911, guid: 6d94004366b1a814c852342536a2685a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1617,19 +1606,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: outrosubtitles.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: 'outrosubtitles.Array.data[1]'
       value: 
-      objectReference: {fileID: 963273692}
+      objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: monologuesSubtitles.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: outroSubtitlesDurations.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: 'introSubtitlesDurations.Array.data[0]'
@@ -1641,7 +1630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: 'outroSubtitlesDurations.Array.data[0]'
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: 'outroSubtitlesDurations.Array.data[1]'
@@ -1786,7 +1775,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7919262292072083253, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_text
-      value: "Johan sr. doesn't think I'm a good driver, but I got us here as fast
+      value: "My husband doesn't think I'm a good driver, but I got us here as fast
         as I could. Next stop: the beach!\r"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1794,6 +1783,7 @@ PrefabInstance:
     - {fileID: 8292634611255741322, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
     - {fileID: 7908355391178200801, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
     - {fileID: 7080701848687388852, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+    - {fileID: 4292394339961885399, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}

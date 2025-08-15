@@ -450,11 +450,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2509660598093893108, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.37
+      value: 0.78
       objectReference: {fileID: 0}
     - target: {fileID: 2509660598093893108, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.74
+      value: 1.53
       objectReference: {fileID: 0}
     - target: {fileID: 2926615347178018356, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Size.x
@@ -838,11 +838,11 @@ PrefabInstance:
       objectReference: {fileID: -5826305521930883318, guid: 1d44839188e502b4e87950622966297c, type: 3}
     - target: {fileID: 5674002496362407908, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.37
+      value: 0.78
       objectReference: {fileID: 0}
     - target: {fileID: 5674002496362407908, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.74
+      value: 1.53
       objectReference: {fileID: 0}
     - target: {fileID: 5719612133980464003, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.size

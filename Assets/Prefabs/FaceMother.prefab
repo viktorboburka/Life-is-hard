@@ -266,11 +266,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2509660598093893108, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.49
+      value: -0.11
       objectReference: {fileID: 0}
     - target: {fileID: 2509660598093893108, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.93
+      value: -0.18
       objectReference: {fileID: 0}
     - target: {fileID: 2926615347178018356, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Sprite
@@ -450,11 +450,11 @@ PrefabInstance:
       objectReference: {fileID: -7779113271499179397, guid: d025743639520e240b28745e25a48b8c, type: 3}
     - target: {fileID: 5674002496362407908, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.49
+      value: -0.11
       objectReference: {fileID: 0}
     - target: {fileID: 5674002496362407908, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.93
+      value: -0.18
       objectReference: {fileID: 0}
     - target: {fileID: 5719612133980464003, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.data[1].Position.x
