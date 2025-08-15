@@ -1541,7 +1541,7 @@ PrefabInstance:
       objectReference: {fileID: 4986841796369757742}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: 'monologuesSubtitles.Array.data[1].durations.Array.data[0]'
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: 'monologuesSubtitles.Array.data[1].subtitles.Array.data[0]'
@@ -1591,7 +1591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4762046759904219104, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_text
-      value: My ice cream fell
+      value: Oh no, my ice cream fell down on the ground.
       objectReference: {fileID: 0}
     - target: {fileID: 6195876142231348232, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: _text
