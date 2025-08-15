@@ -1789,10 +1789,6 @@ PrefabInstance:
       value: "Johan sr. doesn't think I'm a good driver, but I got us here as fast
         as I could. Next stop: the beach!\r"
       objectReference: {fileID: 0}
-    - target: {fileID: 8141015598318024950, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 8292634611255741322, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
