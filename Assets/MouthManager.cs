@@ -56,7 +56,7 @@ public class MouthManager : MonoBehaviour
         }
         DOVirtual.DelayedCall(0.5f, () => SoundManager.Instance.PlayCameraSound());
         DOVirtual.DelayedCall(0.75f, () => MySceneManager.Instance.PlayCameraFlashAnimation());
-        DOVirtual.DelayedCall(1.5f, () => hoverSwitchSprite.ReturnToBigPicture());
+        DOVirtual.DelayedCall(3.0f, () => hoverSwitchSprite.ReturnToBigPicture());
     }
 
     public void SetStarted(bool b) {

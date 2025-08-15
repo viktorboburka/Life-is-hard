@@ -176,6 +176,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -3581300123301828400, guid: 02b5f907e0fae7c43a2805e9a77ea07e, type: 3}
+    - target: {fileID: 1506487330213188682, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 28ae74a66aa814e4988621eeb2efa210, type: 2}
     - target: {fileID: 1868221969895452870, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -283,11 +287,11 @@ PrefabInstance:
     - target: {fileID: 4503170244660491914, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Resource
       value: 
-      objectReference: {fileID: 8300000, guid: 7ceeead2c48b2a44b9103ed39d7e2a96, type: 3}
+      objectReference: {fileID: 8300000, guid: d875ae864525cff4aa50dffebf878a7e, type: 3}
     - target: {fileID: 4503170244660491914, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 7ceeead2c48b2a44b9103ed39d7e2a96, type: 3}
+      objectReference: {fileID: 8300000, guid: d875ae864525cff4aa50dffebf878a7e, type: 3}
     - target: {fileID: 4787155213167874870, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.7220001
