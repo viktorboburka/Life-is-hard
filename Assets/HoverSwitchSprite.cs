@@ -60,25 +60,33 @@ public class HoverSwitchSprite : MonoBehaviour
         CameraControls cam = Camera.main.GetComponent<CameraControls>();
         cam.TransitionTo(transform.position);
         active = false;
-        AudioSource music = SoundManager.Instance.musicSource;
-        music.Play();
-        music.volume = 0f;
-        music.DOFade(1.0f, cam.zoomDuration);
 
         DOVirtual.DelayedCall(cam.zoomDuration, () =>
         {
             StartCoroutine(PlayMonologues());
             StartCoroutine(MySceneManager.Instance.PlayMonologueSubtitles(monologueIdx));
-            DOVirtual.DelayedCall(MySceneManager.Instance.GetMonologueDuration(monologueIdx), () => mouthManager.SetStarted(true));
+            DOVirtual.DelayedCall(MySceneManager.Instance.GetMonologueDuration(monologueIdx), () =>
+            {
+                AudioSource music = SoundManager.Instance.musicSource;
+                music.Play();
+                music.volume = 0f;
+                music.DOFade(1.0f, 3.0f);
+
+                mouthManager.SetStarted(true);
+                MySceneManager.Instance.ShowControlsHint();
+            });
         });
     }
 
-    IEnumerator PlayMonologues() {
-        foreach (AudioSource monologue in monologues) {
+    IEnumerator PlayMonologues()
+    {
+        foreach (AudioSource monologue in monologues)
+        {
             monologue.Play();
             yield return new WaitForSeconds(monologue.clip.length);
             //while waiting for input
-            while (true) {
+            while (true)
+            {
                 yield return null;
                 if (Input.anyKeyDown) continue;
             }
@@ -87,6 +95,7 @@ public class HoverSwitchSprite : MonoBehaviour
 
     public void ReturnToBigPicture()
     {
+        MySceneManager.Instance.HideControlsHint();
         CameraControls cam = Camera.main.GetComponent<CameraControls>();
         done = true;
         cam.TransitionToOriginal();

@@ -1375,6 +1375,27 @@ PrefabInstance:
       value: Back in my day *I* was the queen of windsurfing riding the waves all
         day, having all the attention. Now I'm on babysitting duty.
       objectReference: {fileID: 0}
+    - target: {fileID: 1792063025178029112, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: _text
+      value: Thanks for that all-natural sunscreen you gave me, although I got a
+        bit of a sunburn. Love vacations!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792063025178029112, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseActions
+      value: 
+      objectReference: {fileID: 11400000, guid: 2cfc63d15dff4474b8439e8d71c2d324, type: 2}
+    - target: {fileID: 1792063025178029112, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseBehaviors
+      value: 
+      objectReference: {fileID: 11400000, guid: f7894e61b878391468373644d1165a2d, type: 2}
+    - target: {fileID: 1792063025178029112, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseAppearances
+      value: 
+      objectReference: {fileID: 11400000, guid: 1c5ee163ca47b034793225e53743936f, type: 2}
+    - target: {fileID: 1792063025178029112, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: defaultAppearancesTags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2388819630594617165, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_text
       value: Thanks for that all-natural sunscreen you gave me, although I got a
@@ -1390,6 +1411,27 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: e809ec579094d7d4c8cd4cb5ff00b95d, type: 3}
     - target: {fileID: 2715761440167615672, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2778532906696450483, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: _text
+      value: Back in my day *I* was the queen of windsurfing riding the waves all
+        day, having all the attention. Now I'm on babysitting duty.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2778532906696450483, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseActions
+      value: 
+      objectReference: {fileID: 11400000, guid: 2cfc63d15dff4474b8439e8d71c2d324, type: 2}
+    - target: {fileID: 2778532906696450483, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseBehaviors
+      value: 
+      objectReference: {fileID: 11400000, guid: f7894e61b878391468373644d1165a2d, type: 2}
+    - target: {fileID: 2778532906696450483, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseAppearances
+      value: 
+      objectReference: {fileID: 11400000, guid: 1c5ee163ca47b034793225e53743936f, type: 2}
+    - target: {fileID: 2778532906696450483, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: defaultAppearancesTags.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3553468043711264086, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
@@ -1505,9 +1547,92 @@ PrefabInstance:
       propertyPath: 'monologuesSubtitles.Array.data[1].subtitles.Array.data[0]'
       value: 
       objectReference: {fileID: 4986841796369757741}
+    - target: {fileID: 4210745333940702018, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: _text
+      value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies
+        rutrum mauris quis aliquet.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210745333940702018, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseActions
+      value: 
+      objectReference: {fileID: 11400000, guid: 2cfc63d15dff4474b8439e8d71c2d324, type: 2}
+    - target: {fileID: 4210745333940702018, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseBehaviors
+      value: 
+      objectReference: {fileID: 11400000, guid: f7894e61b878391468373644d1165a2d, type: 2}
+    - target: {fileID: 4210745333940702018, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseAppearances
+      value: 
+      objectReference: {fileID: 11400000, guid: 1c5ee163ca47b034793225e53743936f, type: 2}
+    - target: {fileID: 4210745333940702018, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: defaultAppearancesTags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486540398087040807, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: _text
+      value: "Dear sister, greetings from the beach! It\u2019s been a week of us
+        picking seashells, surfing, and having a good time! Everything is great!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486540398087040807, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseActions
+      value: 
+      objectReference: {fileID: 11400000, guid: 2cfc63d15dff4474b8439e8d71c2d324, type: 2}
+    - target: {fileID: 4486540398087040807, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseBehaviors
+      value: 
+      objectReference: {fileID: 11400000, guid: f7894e61b878391468373644d1165a2d, type: 2}
+    - target: {fileID: 4486540398087040807, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseAppearances
+      value: 
+      objectReference: {fileID: 11400000, guid: 1c5ee163ca47b034793225e53743936f, type: 2}
+    - target: {fileID: 4486540398087040807, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: defaultAppearancesTags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4762046759904219104, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_text
       value: My ice cream fell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6195876142231348232, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: _text
+      value: My ice cream fell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6195876142231348232, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseActions
+      value: 
+      objectReference: {fileID: 11400000, guid: 2cfc63d15dff4474b8439e8d71c2d324, type: 2}
+    - target: {fileID: 6195876142231348232, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseBehaviors
+      value: 
+      objectReference: {fileID: 11400000, guid: f7894e61b878391468373644d1165a2d, type: 2}
+    - target: {fileID: 6195876142231348232, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseAppearances
+      value: 
+      objectReference: {fileID: 11400000, guid: 1c5ee163ca47b034793225e53743936f, type: 2}
+    - target: {fileID: 6195876142231348232, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: defaultAppearancesTags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6870084381225331753, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: _text
+      value: Sad that our vacation is coming to an end, but to be honest, I'm looking
+        forward to enjoy some peace at home.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6870084381225331753, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseActions
+      value: 
+      objectReference: {fileID: 11400000, guid: 2cfc63d15dff4474b8439e8d71c2d324, type: 2}
+    - target: {fileID: 6870084381225331753, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseBehaviors
+      value: 
+      objectReference: {fileID: 11400000, guid: f7894e61b878391468373644d1165a2d, type: 2}
+    - target: {fileID: 6870084381225331753, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseAppearances
+      value: 
+      objectReference: {fileID: 11400000, guid: 1c5ee163ca47b034793225e53743936f, type: 2}
+    - target: {fileID: 6870084381225331753, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: defaultAppearancesTags.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7590934431177256264, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_Resource

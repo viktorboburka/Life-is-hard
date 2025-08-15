@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using TMPro;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -19,6 +18,7 @@ public class MySceneManager : MonoBehaviour
     [SerializeField] List<TextMeshProUGUI> outrosubtitles;
     [SerializeField] List<float> outroSubtitlesDurations;
     [SerializeField] Image flash;
+    [SerializeField] GameObject controlsHint;
 
     [System.Serializable] public class MonologueListWrapper {
         public List<TextMeshProUGUI> subtitles;
@@ -164,6 +164,14 @@ public class MySceneManager : MonoBehaviour
             total += duration;
         }
         return total;
+    }
+
+    public void ShowControlsHint() {
+        controlsHint.SetActive(true);
+    }
+
+    public void HideControlsHint() {
+        controlsHint.SetActive(false);
     }
 
 }

@@ -1214,9 +1214,51 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1418273630949922010, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: _text
+      value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies
+        rutrum mauris quis aliquet.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1418273630949922010, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseActions
+      value: 
+      objectReference: {fileID: 11400000, guid: 2cfc63d15dff4474b8439e8d71c2d324, type: 2}
+    - target: {fileID: 1418273630949922010, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseBehaviors
+      value: 
+      objectReference: {fileID: 11400000, guid: f7894e61b878391468373644d1165a2d, type: 2}
+    - target: {fileID: 1418273630949922010, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseAppearances
+      value: 
+      objectReference: {fileID: 11400000, guid: 1c5ee163ca47b034793225e53743936f, type: 2}
+    - target: {fileID: 1418273630949922010, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: defaultAppearancesTags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1663976810136123909, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_text
       value: "they just seem annoyed. I'm so done.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1674179785241472974, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: _text
+      value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies
+        rutrum mauris quis aliquet.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1674179785241472974, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseActions
+      value: 
+      objectReference: {fileID: 11400000, guid: 2cfc63d15dff4474b8439e8d71c2d324, type: 2}
+    - target: {fileID: 1674179785241472974, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseBehaviors
+      value: 
+      objectReference: {fileID: 11400000, guid: f7894e61b878391468373644d1165a2d, type: 2}
+    - target: {fileID: 1674179785241472974, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseAppearances
+      value: 
+      objectReference: {fileID: 11400000, guid: 1c5ee163ca47b034793225e53743936f, type: 2}
+    - target: {fileID: 1674179785241472974, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: defaultAppearancesTags.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1830916436379515652, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_Color.b
@@ -1238,6 +1280,26 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: c618a286bf577fe438499f33fdb45814, type: 3}
+    - target: {fileID: 2778532906696450483, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: _text
+      value: "they just seem annoyed. I'm so done.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2778532906696450483, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseActions
+      value: 
+      objectReference: {fileID: 11400000, guid: 2cfc63d15dff4474b8439e8d71c2d324, type: 2}
+    - target: {fileID: 2778532906696450483, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseBehaviors
+      value: 
+      objectReference: {fileID: 11400000, guid: f7894e61b878391468373644d1165a2d, type: 2}
+    - target: {fileID: 2778532906696450483, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseAppearances
+      value: 
+      objectReference: {fileID: 11400000, guid: 1c5ee163ca47b034793225e53743936f, type: 2}
+    - target: {fileID: 2778532906696450483, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: defaultAppearancesTags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3553468043711264086, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_Name
       value: SceneManager
@@ -1367,6 +1429,110 @@ PrefabInstance:
       propertyPath: 'monologuesSubtitles.Array.data[1].subtitles.Array.data[1]'
       value: 
       objectReference: {fileID: 434244120}
+    - target: {fileID: 4210745333940702018, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: _text
+      value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies
+        rutrum mauris quis aliquet.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4210745333940702018, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseActions
+      value: 
+      objectReference: {fileID: 11400000, guid: 2cfc63d15dff4474b8439e8d71c2d324, type: 2}
+    - target: {fileID: 4210745333940702018, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseBehaviors
+      value: 
+      objectReference: {fileID: 11400000, guid: f7894e61b878391468373644d1165a2d, type: 2}
+    - target: {fileID: 4210745333940702018, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseAppearances
+      value: 
+      objectReference: {fileID: 11400000, guid: 1c5ee163ca47b034793225e53743936f, type: 2}
+    - target: {fileID: 4210745333940702018, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: defaultAppearancesTags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486540398087040807, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: _text
+      value: "Dear Sister, I\u2019ve been trying so hard to make this trip enjoyable
+        for everyone, but\u2026\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486540398087040807, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseActions
+      value: 
+      objectReference: {fileID: 11400000, guid: 2cfc63d15dff4474b8439e8d71c2d324, type: 2}
+    - target: {fileID: 4486540398087040807, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseBehaviors
+      value: 
+      objectReference: {fileID: 11400000, guid: f7894e61b878391468373644d1165a2d, type: 2}
+    - target: {fileID: 4486540398087040807, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseAppearances
+      value: 
+      objectReference: {fileID: 11400000, guid: 1c5ee163ca47b034793225e53743936f, type: 2}
+    - target: {fileID: 4486540398087040807, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: defaultAppearancesTags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6195876142231348232, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: _text
+      value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies
+        rutrum mauris quis aliquet.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6195876142231348232, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseActions
+      value: 
+      objectReference: {fileID: 11400000, guid: 2cfc63d15dff4474b8439e8d71c2d324, type: 2}
+    - target: {fileID: 6195876142231348232, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseBehaviors
+      value: 
+      objectReference: {fileID: 11400000, guid: f7894e61b878391468373644d1165a2d, type: 2}
+    - target: {fileID: 6195876142231348232, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseAppearances
+      value: 
+      objectReference: {fileID: 11400000, guid: 1c5ee163ca47b034793225e53743936f, type: 2}
+    - target: {fileID: 6195876142231348232, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: defaultAppearancesTags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6870084381225331753, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: _text
+      value: I now understand why our parents just seemed more tired after vacations.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6870084381225331753, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseActions
+      value: 
+      objectReference: {fileID: 11400000, guid: 2cfc63d15dff4474b8439e8d71c2d324, type: 2}
+    - target: {fileID: 6870084381225331753, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseBehaviors
+      value: 
+      objectReference: {fileID: 11400000, guid: f7894e61b878391468373644d1165a2d, type: 2}
+    - target: {fileID: 6870084381225331753, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseAppearances
+      value: 
+      objectReference: {fileID: 11400000, guid: 1c5ee163ca47b034793225e53743936f, type: 2}
+    - target: {fileID: 6870084381225331753, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: defaultAppearancesTags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970282426652508225, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: _text
+      value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies
+        rutrum mauris quis aliquet.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970282426652508225, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseActions
+      value: 
+      objectReference: {fileID: 11400000, guid: 2cfc63d15dff4474b8439e8d71c2d324, type: 2}
+    - target: {fileID: 6970282426652508225, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseBehaviors
+      value: 
+      objectReference: {fileID: 11400000, guid: f7894e61b878391468373644d1165a2d, type: 2}
+    - target: {fileID: 6970282426652508225, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: databaseAppearances
+      value: 
+      objectReference: {fileID: 11400000, guid: 1c5ee163ca47b034793225e53743936f, type: 2}
+    - target: {fileID: 6970282426652508225, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: defaultAppearancesTags.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7590934431177256264, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_Resource
       value: 
