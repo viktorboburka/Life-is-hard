@@ -30,9 +30,14 @@ public class SoundManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            click.Play();
-        }
+
+    }
+
+    public void PlayClickSound() {
+        click.Play();
+    }
+
+    public void PlayLetterClickSound() {
+        click.Play();
     }
 }

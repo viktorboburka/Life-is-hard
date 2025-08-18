@@ -65,6 +65,8 @@ public class MoveAlongSpline : MonoBehaviour
             tapSpeed = Mathf.Clamp(tapSpeed, tapMinSpeed, tapMaxSpeed);
 
             progress += tapSpeed;
+
+            SoundManager.Instance.PlayLetterClickSound();
         }
         else {
             tapSpeed -= tapDecceleration * Time.deltaTime;

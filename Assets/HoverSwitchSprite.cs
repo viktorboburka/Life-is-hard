@@ -31,6 +31,7 @@ public class HoverSwitchSprite : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(0) && active && hoverSprite.activeInHierarchy)
         {
+            SoundManager.Instance.PlayClickSound();
             ZoomToFace();
         }
     }
