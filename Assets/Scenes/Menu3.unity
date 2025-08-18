@@ -482,7 +482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5997316751581186478, guid: 3fc78ebd4b924b642887e3b7f829a71c, type: 3}
       propertyPath: m_text
-      value: "Part 3 \u2666 Return"
+      value: "Part 3 \u2666 Departure"
       objectReference: {fileID: 0}
     - target: {fileID: 7906502702442642873, guid: 3fc78ebd4b924b642887e3b7f829a71c, type: 3}
       propertyPath: m_Type
