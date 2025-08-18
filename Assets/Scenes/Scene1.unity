@@ -749,11 +749,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 240323857062722308, guid: abcf51514fa0686459807951b64e0860, type: 3}
       propertyPath: m_MaxSpeed
-      value: 0.2440002
+      value: 0.21864977
       objectReference: {fileID: 0}
     - target: {fileID: 658472384575841176, guid: abcf51514fa0686459807951b64e0860, type: 3}
       propertyPath: m_MaxSpeed
-      value: 0.4274407
+      value: 0.42585605
       objectReference: {fileID: 0}
     - target: {fileID: 1682462366489633679, guid: abcf51514fa0686459807951b64e0860, type: 3}
       propertyPath: m_Name
@@ -761,23 +761,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1872947772734249395, guid: abcf51514fa0686459807951b64e0860, type: 3}
       propertyPath: m_MaxSpeed
-      value: 0.30127773
+      value: 0.37951076
       objectReference: {fileID: 0}
     - target: {fileID: 2946838712493445017, guid: abcf51514fa0686459807951b64e0860, type: 3}
       propertyPath: m_MaxSpeed
-      value: 0.29176202
+      value: 0.28114164
       objectReference: {fileID: 0}
-    - target: {fileID: 3652900950795349045, guid: abcf51514fa0686459807951b64e0860, type: 3}
-      propertyPath: m_Resource
-      value: 
-      objectReference: {fileID: 8300000, guid: 019304e860a3d7d46a72389d31a0c175, type: 3}
-    - target: {fileID: 3652900950795349045, guid: abcf51514fa0686459807951b64e0860, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 019304e860a3d7d46a72389d31a0c175, type: 3}
     - target: {fileID: 4116061142846476575, guid: abcf51514fa0686459807951b64e0860, type: 3}
       propertyPath: m_MaxSpeed
-      value: 0.4219817
+      value: 0.40055054
       objectReference: {fileID: 0}
     - target: {fileID: 4391678636521214332, guid: abcf51514fa0686459807951b64e0860, type: 3}
       propertyPath: m_LocalPosition.x
@@ -823,33 +815,25 @@ PrefabInstance:
       propertyPath: monologueIdx
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5282016715618710790, guid: abcf51514fa0686459807951b64e0860, type: 3}
-      propertyPath: monologues.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5282016715618710790, guid: abcf51514fa0686459807951b64e0860, type: 3}
-      propertyPath: 'monologues.Array.data[0]'
-      value: 
-      objectReference: {fileID: 1795427844}
     - target: {fileID: 5628389148843840217, guid: abcf51514fa0686459807951b64e0860, type: 3}
       propertyPath: m_MaxSpeed
-      value: 0.41097236
+      value: 0.35650176
       objectReference: {fileID: 0}
     - target: {fileID: 6426217009707750477, guid: abcf51514fa0686459807951b64e0860, type: 3}
       propertyPath: m_MaxSpeed
-      value: 0.29799986
+      value: 0.14335138
       objectReference: {fileID: 0}
     - target: {fileID: 6603597993632097213, guid: abcf51514fa0686459807951b64e0860, type: 3}
       propertyPath: m_MaxSpeed
-      value: 0.33377266
+      value: 0.39621264
       objectReference: {fileID: 0}
     - target: {fileID: 7587520038634647961, guid: abcf51514fa0686459807951b64e0860, type: 3}
       propertyPath: m_MaxSpeed
-      value: 0.25867257
+      value: 0.31080824
       objectReference: {fileID: 0}
     - target: {fileID: 9181751952582800427, guid: abcf51514fa0686459807951b64e0860, type: 3}
       propertyPath: m_MaxSpeed
-      value: 0.31458825
+      value: 0.34494197
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1309,11 +1293,6 @@ Transform:
 --- !u!4 &1795427842 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4391678636521214332, guid: abcf51514fa0686459807951b64e0860, type: 3}
-  m_PrefabInstance: {fileID: 863614809}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &1795427844 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 3652900950795349045, guid: abcf51514fa0686459807951b64e0860, type: 3}
   m_PrefabInstance: {fileID: 863614809}
   m_PrefabAsset: {fileID: 0}
 --- !u!82 &1912700530 stripped
