@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 83101e622812e584c9a008128d35a24c
+guid: d445a012bf2a988428c9fd6a01bc0c3a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7142518519572273488
-    second: Asset 2_0
+      213: 3752704344085539850
+    second: SubtitleGradient2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Asset 2_0
+      name: SubtitleGradient2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 761
-        height: 759
+        width: 956
+        height: 954
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05911c830c25f1360800000000000000
-      internalID: 7142518519572273488
+      spriteID: a0ca840e7b8441430800000000000000
+      internalID: 3752704344085539850
       vertices: []
       indices: 
       edges: []
