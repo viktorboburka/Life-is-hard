@@ -784,6 +784,14 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.64
       objectReference: {fileID: 0}
+    - target: {fileID: 5040597443206707938, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5040597443206707938, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5308612991630632951, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_MaxSpeed
       value: 0.35650176
@@ -1465,7 +1473,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -522264659264165006, guid: 2c5611788804e8141931b3951d2079b5, type: 3}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 217544608154762409, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+    - {fileID: 1213176583996917898, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}

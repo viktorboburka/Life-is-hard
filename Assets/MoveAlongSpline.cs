@@ -7,6 +7,7 @@ public class MoveAlongSpline : MonoBehaviour
 
     [SerializeField] KeyCode key;
     bool lastKeyPressed;
+    float lastKeyPressedTime = -Mathf.Infinity;
     public float progress = 0f;
 
 
@@ -24,18 +25,34 @@ public class MoveAlongSpline : MonoBehaviour
 
     public bool doneMoving = true;
 
+    MouthPartHintBehavior hintBehavior;
+    float showHintAfterIdleSeconds = 3f;
+
     void Start()
     {
         doneMoving = true;
         splineAnimate = GetComponent<SplineAnimate>();
+        hintBehavior = GetComponent<MouthPartHintBehavior>();
+        hintBehavior?.SetHint(key);
     }
 
     void Update()
     {
+        HintUpdate();
         //HoldControlsUpdate();
         TapControlsUpdate();
     }
     
+    void HintUpdate() {
+        if (!hintBehavior || doneMoving) return;
+        if (lastKeyPressedTime + showHintAfterIdleSeconds < Time.timeSinceLevelLoad) {
+            hintBehavior.ShowHint();
+        }
+        if (lastKeyPressed) {
+            hintBehavior.HideHint();
+        }
+    }
+
     void TapControlsUpdate() {
         if (doneMoving) {
             splineAnimate.ElapsedTime = progress;
@@ -43,6 +60,7 @@ public class MoveAlongSpline : MonoBehaviour
         }
         bool currentKeyPress = Input.GetKeyDown(key);
         if (currentKeyPress) {
+            lastKeyPressedTime = Time.timeSinceLevelLoad;
             tapSpeed += tapAcceleration;
             tapSpeed = Mathf.Clamp(tapSpeed, tapMinSpeed, tapMaxSpeed);
 
@@ -63,6 +81,7 @@ public class MoveAlongSpline : MonoBehaviour
         splineAnimate.ElapsedTime = progress;
 
         lastKeyPressed = Input.GetKey(key);
+
     }
 
     void HoldControlsUpdate()
