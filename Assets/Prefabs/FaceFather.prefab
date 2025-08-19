@@ -691,11 +691,11 @@ PrefabInstance:
     - target: {fileID: 3820815482479253787, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Resource
       value: 
-      objectReference: {fileID: 8300000, guid: 019304e860a3d7d46a72389d31a0c175, type: 3}
+      objectReference: {fileID: 8300000, guid: 01f868b4f518a544498bb79c5c3c02ea, type: 3}
     - target: {fileID: 3820815482479253787, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 019304e860a3d7d46a72389d31a0c175, type: 3}
+      objectReference: {fileID: 8300000, guid: 01f868b4f518a544498bb79c5c3c02ea, type: 3}
     - target: {fileID: 4270983701127373906, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
