@@ -1059,6 +1059,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.836998
       objectReference: {fileID: 0}
+    - target: {fileID: 7109833405270844490, guid: abcf51514fa0686459807951b64e0860, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7587520038634647961, guid: abcf51514fa0686459807951b64e0860, type: 3}
       propertyPath: m_MaxSpeed
       value: 0.31080824

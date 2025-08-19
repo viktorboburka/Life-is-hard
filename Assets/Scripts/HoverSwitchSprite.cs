@@ -75,12 +75,14 @@ public class HoverSwitchSprite : MonoBehaviour
                 music.DOFade(1.0f, 5.0f);
 
                 Debug.Log("saying cheese");
-                DOVirtual.DelayedCall(0.5f, () => sayCheeseSound.Play());
-                DOVirtual.DelayedCall(sayCheeseSound.clip.length + 0.75f, () =>
+                sayCheeseSound.Play();
+                mouthManager.SetStarted(true);
+                MySceneManager.Instance.ShowControlsHint();
+                /*DOVirtual.DelayedCall(sayCheeseSound.clip.length + 0.75f, () =>
                 {
                     mouthManager.SetStarted(true);
                     MySceneManager.Instance.ShowControlsHint();
-                });
+                });*/
             });
         });
     }
