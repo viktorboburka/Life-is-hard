@@ -14,7 +14,7 @@ public class MoveAlongSpline : MonoBehaviour
     float maxSpeed = 0.02f;
     float minSpeed = 0.01f;
     float speed = 0f;
-    float acceleration = 0.01f;
+    float acceleration = 0.015f;
     SplineAnimate splineAnimate;
 
     float tapMaxSpeed = 0.15f;
@@ -62,6 +62,7 @@ public class MoveAlongSpline : MonoBehaviour
         if (currentKeyPress) {
             lastKeyPressedTime = Time.timeSinceLevelLoad;
             tapSpeed += tapAcceleration;
+            if (progress < 0.01f) tapSpeed *= 3;
             tapSpeed = Mathf.Clamp(tapSpeed, tapMinSpeed, tapMaxSpeed);
 
             progress += tapSpeed;
