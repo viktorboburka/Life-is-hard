@@ -9,6 +9,14 @@ public class MouthManager : MonoBehaviour
     [SerializeField] HoverSwitchSprite hoverSwitchSprite;
     List<MoveAlongSpline> pieces = new();
 
+    [SerializeField] AudioSource successSound;
+    float randomizedDelaySuccess = 3f;
+    float lastSuccessSoundPlayedAt = -Mathf.Infinity;
+    [SerializeField] List<AudioSource> encouragementSounds;
+    float randomizedDelayEncouragement = 3f;
+
+    float lastEncouragementSoundPlayedAt = -Mathf.Infinity;
+
     float holdTime = 2f;
     float currentHoldTime = 0f;
 
@@ -17,6 +25,7 @@ public class MouthManager : MonoBehaviour
 
     void OnEnable() {
         ended = false;
+        randomizedDelaySuccess = Random.Range(3f, 5f);
     }
 
     void Start()
@@ -39,9 +48,20 @@ public class MouthManager : MonoBehaviour
         
         if (totalProgress >= 0.9f) {
             currentHoldTime += Time.deltaTime;
+            if (Time.timeSinceLevelLoad - lastSuccessSoundPlayedAt > randomizedDelaySuccess) {
+                lastSuccessSoundPlayedAt = Time.timeSinceLevelLoad;
+                successSound.Play();
+                randomizedDelaySuccess = Random.Range(3f, 5f);
+            }
         }
         else {
             currentHoldTime = 0f;
+            if (Time.timeSinceLevelLoad - lastEncouragementSoundPlayedAt > randomizedDelayEncouragement && totalProgress < 0.6f) {
+                lastEncouragementSoundPlayedAt = Time.timeSinceLevelLoad;
+                int randIdx = Random.Range(0, encouragementSounds.Count);
+                encouragementSounds[randIdx].Play();
+                randomizedDelayEncouragement = Random.Range(5f, 10f) + encouragementSounds[randIdx].clip.length;
+            }
         }
         if (currentHoldTime >= holdTime) {
             MinigameEnding();
