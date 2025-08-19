@@ -1314,13 +1314,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 203517395}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0274810b5d5e20b49ac4349219440563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ShadowOffset: {x: 0.76, y: 0.86}
-  ShadowMaterial: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  ShadowMaterial: {fileID: 2100000, guid: c9f4559edec7a2c41857bae6b4d74039, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
