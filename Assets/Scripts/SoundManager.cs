@@ -8,6 +8,7 @@ public class SoundManager : MonoBehaviour
     [SerializeField] public AudioSource musicSource;
     [SerializeField] AudioSource click;
     [SerializeField] AudioSource cameraSound;
+    float lastClickPlayedAt = 0f;
 
     internal void PlayCameraSound()
     {
@@ -34,7 +35,9 @@ public class SoundManager : MonoBehaviour
     }
 
     public void PlayClickSound() {
+        if (Time.timeSinceLevelLoad - lastClickPlayedAt < 0.25f) return;
         click.Play();
+        lastClickPlayedAt = Time.timeSinceLevelLoad;
     }
 
     public void PlayLetterClickSound() {
