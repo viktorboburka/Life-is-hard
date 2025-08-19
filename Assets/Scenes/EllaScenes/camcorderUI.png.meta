@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 865b46b7217a10b409d3a6b23d4ca55b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5661896060283398740
+    second: camcorderUI_0
+  - first:
+      213: -762201800177145981
+    second: camcorderUI_1
+  - first:
+      213: -5298753717581434080
+    second: camcorderUI_2
+  - first:
+      213: 3901373534984542347
+    second: camcorderUI_3
+  - first:
+      213: 7409810505976791700
+    second: camcorderUI_4
+  - first:
+      213: 5671817594093956101
+    second: camcorderUI_5
+  - first:
+      213: -2884554044278397776
+    second: camcorderUI_6
+  - first:
+      213: 6351548075835224642
+    second: camcorderUI_7
+  - first:
+      213: 16870340077199050
+    second: camcorderUI_8
+  - first:
+      213: -6817327764864078017
+    second: camcorderUI_9
+  - first:
+      213: 2623407163213957836
+    second: camcorderUI_10
+  - first:
+      213: 2978443433349977762
+    second: camcorderUI_11
+  - first:
+      213: -9013981307738240382
+    second: camcorderUI_12
+  - first:
+      213: 7741214076602896048
+    second: camcorderUI_13
+  - first:
+      213: 5668648122951336495
+    second: camcorderUI_14
+  - first:
+      213: -1915726744831288750
+    second: camcorderUI_15
+  - first:
+      213: 3146855171932691813
+    second: camcorderUI_16
+  - first:
+      213: 8597129802320516616
+    second: camcorderUI_17
+  - first:
+      213: -2601446219399407412
+    second: camcorderUI_18
+  - first:
+      213: -3697179285546088105
+    second: camcorderUI_19
+  - first:
+      213: 3537875479018843795
+    second: camcorderUI_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: camcorderUI_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1920
+        height: 1247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a20640878139e40800000000000000
+      internalID: 5661896060283398740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_1
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1106
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3872745408d1c65f0800000000000000
+      internalID: -762201800177145981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_2
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1106
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023374f519b0776b0800000000000000
+      internalID: -5298753717581434080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_3
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1127
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b881dd84f86742630800000000000000
+      internalID: 3901373534984542347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_4
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1106
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49244b5756fe4d660800000000000000
+      internalID: 7409810505976791700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_5
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1106
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ce7ce1d0856be40800000000000000
+      internalID: 5671817594093956101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_6
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1097
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4ae57316108f7d0800000000000000
+      internalID: -2884554044278397776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_7
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1106
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24279f1b25b352850800000000000000
+      internalID: 6351548075835224642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_8
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1106
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace9a832c7feb3000800000000000000
+      internalID: 16870340077199050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_9
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1127
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f6ed1848cf361a0800000000000000
+      internalID: -6817327764864078017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_10
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1106
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca45906ae6386420800000000000000
+      internalID: 2623407163213957836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_11
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1106
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a69b6ca58e855920800000000000000
+      internalID: 2978443433349977762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_12
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 903
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a404c32c7e7e280800000000000000
+      internalID: -9013981307738240382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_13
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1106
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be4b2e10315e6b60800000000000000
+      internalID: 7741214076602896048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_14
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1106
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22033d1f651bae40800000000000000
+      internalID: 5668648122951336495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_15
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 677
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a9d9feca8f965e0800000000000000
+      internalID: -1915726744831288750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_16
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 677
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d16aa2b10ebab20800000000000000
+      internalID: 3146855171932691813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_17
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 462
+        width: 109
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8061d3371042f4770800000000000000
+      internalID: 8597129802320516616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_18
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 462
+        width: 109
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc85a6e427ec5ebd0800000000000000
+      internalID: -2601446219399407412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_19
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 44
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759c71e370bf0bcc0800000000000000
+      internalID: -3697179285546088105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camcorderUI_20
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 44
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39eab72f00f091130800000000000000
+      internalID: 3537875479018843795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a7d1494bc65e4f5428bbd1ceb627c745
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      camcorderUI_0: 5661896060283398740
+      camcorderUI_1: -762201800177145981
+      camcorderUI_10: 2623407163213957836
+      camcorderUI_11: 2978443433349977762
+      camcorderUI_12: -9013981307738240382
+      camcorderUI_13: 7741214076602896048
+      camcorderUI_14: 5668648122951336495
+      camcorderUI_15: -1915726744831288750
+      camcorderUI_16: 3146855171932691813
+      camcorderUI_17: 8597129802320516616
+      camcorderUI_18: -2601446219399407412
+      camcorderUI_19: -3697179285546088105
+      camcorderUI_2: -5298753717581434080
+      camcorderUI_20: 3537875479018843795
+      camcorderUI_3: 3901373534984542347
+      camcorderUI_4: 7409810505976791700
+      camcorderUI_5: 5671817594093956101
+      camcorderUI_6: -2884554044278397776
+      camcorderUI_7: 6351548075835224642
+      camcorderUI_8: 16870340077199050
+      camcorderUI_9: -6817327764864078017
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
