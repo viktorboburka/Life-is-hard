@@ -26,7 +26,7 @@ public class MoveAlongSpline : MonoBehaviour
     public bool doneMoving = true;
 
     MouthPartHintBehavior hintBehavior;
-    float showHintAfterIdleSeconds = 3f;
+    float showHintAfterIdleSeconds = 5f;
 
     void Start()
     {
