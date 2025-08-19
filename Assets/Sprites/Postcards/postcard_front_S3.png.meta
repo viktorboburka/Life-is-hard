@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      postcard_front_S3_0: 8643896251873878132
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

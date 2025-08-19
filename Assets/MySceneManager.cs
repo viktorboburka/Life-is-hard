@@ -130,7 +130,7 @@ public class MySceneManager : MonoBehaviour
             outroMonologue.Play();
         });
         
-        DOVirtual.DelayedCall(GetOutroSubtitlesLength(postCardFlipper) + delay, () => LoadScene(nextSceneIdx));
+        DOVirtual.DelayedCall(GetOutroSubtitlesLength(postCardFlipper) + delay, () => postCardFlipper.SetDone(true));
     }
 
     public void LoadScene(int idx)
@@ -173,6 +173,10 @@ public class MySceneManager : MonoBehaviour
 
     public void HideControlsHint() {
         controlsHint.SetActive(false);
+    }
+
+    public void NextScene() {
+        LoadScene(nextSceneIdx);
     }
 
 }

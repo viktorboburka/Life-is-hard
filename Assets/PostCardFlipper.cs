@@ -13,13 +13,20 @@ public class PostCardFlipper : MonoBehaviour
     [SerializeField] float backWritingDuration = 10f;
 
     bool flipping = false;
-
+    bool done = false;
     [SerializeField] public float flipDuration;
 
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         sr.sprite = front;
+    }
+
+    void Update()
+    {
+        if (done && Input.GetMouseButtonDown(0)) {
+            MySceneManager.Instance.NextScene();
+        } 
     }
 
     public void FlipPostCard()
@@ -37,7 +44,6 @@ public class PostCardFlipper : MonoBehaviour
             if (sr.sprite == front)
             {
                 sr.sprite = back;
-                //TODO: only show old writing
                 backWritingIntro.SetActive(true);
             }
             else
@@ -73,6 +79,10 @@ public class PostCardFlipper : MonoBehaviour
     public float GetWritingDuration()
     {
         return backWritingDuration;
+    }
+
+    public void SetDone(bool b) {
+        done = b;
     }
 
 }
