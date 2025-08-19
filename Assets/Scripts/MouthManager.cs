@@ -80,6 +80,8 @@ public class MouthManager : MonoBehaviour
     }
 
     public void SetStarted(bool b) {
+        lastEncouragementSoundPlayedAt = Time.timeSinceLevelLoad;
+        lastSuccessSoundPlayedAt = Time.timeSinceLevelLoad;
         started = b;
         foreach (MoveAlongSpline piece in pieces) {
             piece.doneMoving = !b;
