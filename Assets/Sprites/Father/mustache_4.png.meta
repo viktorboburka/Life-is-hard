@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mustache_4_0: -8155408347010488897
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
