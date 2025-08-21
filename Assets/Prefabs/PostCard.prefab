@@ -106,7 +106,7 @@ MonoBehaviour:
     hot car, shouldn't have left on a friday. It's been an experience, but now I'm
     excited for this vacation to kick off.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d70e13ab0f3ecd34980247b33acce8c2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d53254a10730a26448beb4f554fc6397, type: 2}
   m_sharedMaterial: {fileID: -2680356310658901376, guid: d70e13ab0f3ecd34980247b33acce8c2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -131,8 +131,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -175,7 +175,7 @@ MonoBehaviour:
   _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_renderer: {fileID: 4747020589908955811}
   m_maskType: 0
 --- !u!1 &2966698637111428597
@@ -459,7 +459,7 @@ MonoBehaviour:
   m_text: 'My husband doesn''t think I''m a good driver, but I got us here as fast
     as I could. Next stop: the beach!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d70e13ab0f3ecd34980247b33acce8c2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d53254a10730a26448beb4f554fc6397, type: 2}
   m_sharedMaterial: {fileID: -2680356310658901376, guid: d70e13ab0f3ecd34980247b33acce8c2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -484,8 +484,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 34
+  m_fontSizeBase: 34
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -528,7 +528,7 @@ MonoBehaviour:
   _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_renderer: {fileID: 5263046221054012224}
   m_maskType: 0
 --- !u!114 &6429203132209481379
@@ -713,7 +713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   front: {fileID: -442718926319821364, guid: 8c461887295a2ce4dac75e6f4048448a, type: 3}
-  back: {fileID: -442718926319821364, guid: 5816eeedceeab534db8707743d69275b, type: 3}
+  back: {fileID: 975272984059886790, guid: 4b10caed45b71c645b14f425f5494393, type: 3}
   backWritingIntro: {fileID: 2966596213839350518}
   backWritingOutro: {fileID: 8012104298740767015}
   flipSound: {fileID: 7962683133155411659}

@@ -103,12 +103,12 @@ TextureImporter:
       name: S1_mother_0
       rect:
         serializedVersion: 2
-        x: 283
-        y: 119
-        width: 309
-        height: 506
+        x: 0
+        y: 0
+        width: 340
+        height: 574
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 143cd1fc09123bd4d82649a105a99771
     internalID: 0
     vertices: []
     indices: 
