@@ -20,6 +20,8 @@ public class MySceneManager : MonoBehaviour
     [SerializeField] Image flash;
     [SerializeField] GameObject controlsHint;
 
+    [SerializeField] GameObject nextLevelArrow;
+
     [System.Serializable] public class MonologueListWrapper {
         public List<TextMeshProUGUI> subtitles;
         public List<float> durations;
@@ -119,6 +121,10 @@ public class MySceneManager : MonoBehaviour
     [ContextMenu("Trigger Level End")]
     void TriggerLevelEnd()
     {
+        nextLevelArrow.SetActive(true);
+        return;
+
+
         gameRunning = false;
         PostCardFlipper postCardFlipper = FindAnyObjectByType<PostCardFlipper>();
         postCardFlipper.FlipPostCard();
@@ -176,6 +182,7 @@ public class MySceneManager : MonoBehaviour
     }
 
     public void NextScene() {
+        Debug.Log("Next scene");
         LoadScene(nextSceneIdx);
     }
 

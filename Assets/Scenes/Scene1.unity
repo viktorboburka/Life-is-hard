@@ -334,7 +334,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 46
+  orthographic size: 30
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -944,41 +944,41 @@ MonoBehaviour:
           z: 0.42786062
           w: 0.5629701
     - Position:
-        x: -2.1700115
-        y: 1.4756085
+        x: -2.170012
+        y: 1.475608
         z: 0
       TangentIn:
         x: -0
         y: -0
-        z: -0.48776916
+        z: -0.48776925
       TangentOut:
         x: 0
         y: 0
-        z: 0.42624533
+        z: 0.42624536
       Rotation:
         value:
-          x: 0.4102819
-          y: 0.5759068
-          z: -0.5759068
-          w: -0.410282
+          x: -0.41028196
+          y: -0.57590693
+          z: 0.5759069
+          w: 0.41028193
     - Position:
-        x: -2.7776155
+        x: -2.777616
         y: -0.4340024
         z: 0
       TangentIn:
         x: -0
         y: -0
-        z: -0.35220173
+        z: -0.35220167
       TangentOut:
         x: 0
         y: 0
         z: 0.3626163
       Rotation:
         value:
-          x: -0.2478556
-          y: 0.6622443
-          z: -0.6622443
-          w: 0.2478556
+          x: -0.24785554
+          y: 0.6622444
+          z: -0.6622444
+          w: 0.24785563
     - Position:
         x: -0.683942
         y: -0.0751152
@@ -986,53 +986,53 @@ MonoBehaviour:
       TangentIn:
         x: -0
         y: -0
-        z: -0.74698216
+        z: -0.7469822
       TangentOut:
         x: 0
         y: 0
-        z: 0.8616093
+        z: 0.8616094
       Rotation:
         value:
-          x: -0.57829154
-          y: 0.40691388
-          z: -0.40691388
-          w: 0.57829154
+          x: 0.57829154
+          y: -0.40691388
+          z: 0.40691388
+          w: -0.5782916
     - Position:
         x: 1.769858
-        y: 1.3270565
+        y: 1.327057
         z: 0
       TangentIn:
         x: -0
         y: -0
-        z: -0.50414854
+        z: -0.5041483
       TangentOut:
         x: 0
         y: 0
-        z: 0.3421904
+        z: 0.3421903
       Rotation:
         value:
-          x: 0.41153476
-          y: -0.5750123
-          z: 0.5750124
-          w: -0.41153458
+          x: 0.4115347
+          y: -0.5750124
+          z: 0.5750125
+          w: -0.41153455
     - Position:
-        x: 2.2706335
-        y: 0.12519506
+        x: 2.270633
+        y: 0.1251951
         z: 0
       TangentIn:
         x: -0
         y: -0
-        z: -0.28530803
+        z: -0.28530812
       TangentOut:
         x: 0
         y: 0
-        z: 0.3770585
+        z: 0.37705863
       Rotation:
         value:
-          x: 0.19557007
-          y: 0.6795236
-          z: -0.6795237
-          w: -0.19557007
+          x: -0.19557011
+          y: -0.6795236
+          z: 0.6795236
+          w: 0.19557005
     m_MetaData:
     - Mode: 4
       Tension: 0.5
@@ -1403,6 +1403,85 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: abcf51514fa0686459807951b64e0860, type: 3}
+--- !u!1 &879709618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 879709621}
+  - component: {fileID: 879709620}
+  - component: {fileID: 879709619}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &879709619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879709618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
+--- !u!114 &879709620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879709618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &879709621
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879709618}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &974179556
 GameObject:
   m_ObjectHideFlags: 0
@@ -2606,3 +2685,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 569188971}
   - {fileID: 1539680930}
+  - {fileID: 879709621}
