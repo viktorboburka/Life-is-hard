@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1512387863710741775}
   - component: {fileID: 5142039415533096687}
+  - component: {fileID: 6187232688543064627}
+  - component: {fileID: 7156675633087809774}
   m_Layer: 0
   m_Name: S1_toddler_0
   m_TagString: Untagged
@@ -87,6 +89,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6187232688543064627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3699411482545677269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a6ffcd035ac3f4ba605d654467d215, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7156675633087809774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3699411482545677269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0274810b5d5e20b49ac4349219440563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShadowOffset: {x: 0.67, y: -0.89}
+  ShadowMaterial: {fileID: 2100000, guid: c9f4559edec7a2c41857bae6b4d74039, type: 2}
+  shadowGameObject: {fileID: 0}
 --- !u!1 &3732608062868490106
 GameObject:
   m_ObjectHideFlags: 0
@@ -97,6 +126,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8034192078536542998}
   - component: {fileID: 3922541755611498897}
+  - component: {fileID: 3187794635073513242}
+  - component: {fileID: 6321184195442645609}
   m_Layer: 0
   m_Name: S1_toddler_0 (1)
   m_TagString: Untagged
@@ -174,6 +205,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3187794635073513242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3732608062868490106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0274810b5d5e20b49ac4349219440563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShadowOffset: {x: 0.67, y: -0.89}
+  ShadowMaterial: {fileID: 2100000, guid: c9f4559edec7a2c41857bae6b4d74039, type: 2}
+  shadowGameObject: {fileID: 0}
+--- !u!114 &6321184195442645609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3732608062868490106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a6ffcd035ac3f4ba605d654467d215, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7794002015596936684
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -7,7 +7,7 @@ public class DropShadow : MonoBehaviour
     public Material ShadowMaterial;
 
     private SpriteRenderer spriteRenderer;
-    private GameObject shadowGameObject;
+    [HideInInspector] public GameObject shadowGameObject;
 
     void Start()
     {

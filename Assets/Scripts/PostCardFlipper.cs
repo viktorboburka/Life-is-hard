@@ -24,9 +24,10 @@ public class PostCardFlipper : MonoBehaviour
 
     void Update()
     {
-        if (done && Input.GetMouseButtonDown(0)) {
+        if (done && Input.GetMouseButtonDown(0))
+        {
             MySceneManager.Instance.NextScene();
-        } 
+        }
     }
 
     public void FlipPostCard()
@@ -36,20 +37,24 @@ public class PostCardFlipper : MonoBehaviour
         flipSound.Play();
         DOVirtual.DelayedCall(flipDuration / 2f, () =>
         {
-            foreach (Transform child in transform)
-            {
-                child.gameObject.SetActive(false);
-            }
 
             if (sr.sprite == front)
             {
                 sr.sprite = back;
                 backWritingIntro.SetActive(true);
+                foreach (Transform child in transform)
+                {
+                    child.gameObject.SetActive(false);
+                }
             }
             else
             {
                 sr.sprite = front;
                 backWritingIntro.SetActive(false);
+                foreach (Transform child in transform)
+                {
+                    child.gameObject.SetActive(true);
+                }
             }
 
         });
@@ -81,7 +86,8 @@ public class PostCardFlipper : MonoBehaviour
         return backWritingDuration;
     }
 
-    public void SetDone(bool b) {
+    public void SetDone(bool b)
+    {
         done = b;
     }
 

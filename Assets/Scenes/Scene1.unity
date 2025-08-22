@@ -221,6 +221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShadowOffset: {x: 0.67, y: -0.89}
   ShadowMaterial: {fileID: 2100000, guid: c9f4559edec7a2c41857bae6b4d74039, type: 2}
+  shadowGameObject: {fileID: 0}
 --- !u!4 &441455476 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2712668856041061377, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
@@ -482,6 +483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShadowOffset: {x: 0.67, y: -0.89}
   ShadowMaterial: {fileID: 2100000, guid: c9f4559edec7a2c41857bae6b4d74039, type: 2}
+  shadowGameObject: {fileID: 0}
 --- !u!1001 &569188971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -690,6 +692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShadowOffset: {x: 1.73, y: -1.53}
   ShadowMaterial: {fileID: 2100000, guid: c9f4559edec7a2c41857bae6b4d74039, type: 2}
+  shadowGameObject: {fileID: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,6 +879,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShadowOffset: {x: 0.67, y: -0.89}
   ShadowMaterial: {fileID: 2100000, guid: c9f4559edec7a2c41857bae6b4d74039, type: 2}
+  shadowGameObject: {fileID: 0}
 --- !u!1 &765417877
 GameObject:
   m_ObjectHideFlags: 0
@@ -1501,6 +1505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShadowOffset: {x: 0.67, y: -0.89}
   ShadowMaterial: {fileID: 2100000, guid: c9f4559edec7a2c41857bae6b4d74039, type: 2}
+  shadowGameObject: {fileID: 0}
 --- !u!4 &1220361959 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5313484814540790911, guid: 6d94004366b1a814c852342536a2685a, type: 3}
@@ -2000,6 +2005,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShadowOffset: {x: 0.67, y: -0.89}
   ShadowMaterial: {fileID: 2100000, guid: c9f4559edec7a2c41857bae6b4d74039, type: 2}
+  shadowGameObject: {fileID: 0}
 --- !u!4 &1795427842 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4391678636521214332, guid: abcf51514fa0686459807951b64e0860, type: 3}
@@ -2222,6 +2228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShadowOffset: {x: 0.67, y: -0.89}
   ShadowMaterial: {fileID: 2100000, guid: c9f4559edec7a2c41857bae6b4d74039, type: 2}
+  shadowGameObject: {fileID: 0}
 --- !u!1001 &4986841796369757740
 PrefabInstance:
   m_ObjectHideFlags: 0
