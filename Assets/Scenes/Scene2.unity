@@ -2146,7 +2146,8 @@ PrefabInstance:
     - target: {fileID: 2327469739850304739, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_text
       value: "Dear sister, greetings from the beach! It\u2019s been a week of us
-        picking seashells, surfing, and having a good time! Everything is great!"
+        picking seashells, surfing, and having a good time! Everything is great!
+        Love vacations!"
       objectReference: {fileID: 0}
     - target: {fileID: 2388819630594617165, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_text
@@ -2244,12 +2245,20 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: introsubtitles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: monologuesSubtitles.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: introSubtitlesDurations.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: 'introSubtitlesDurations.Array.data[0]'
-      value: 9.5
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: 'introSubtitlesDurations.Array.data[1]'
@@ -2277,7 +2286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: 'monologuesSubtitles.Array.data[0].durations.Array.data[0]'
-      value: 13
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: 'monologuesSubtitles.Array.data[0].subtitles.Array.data[0]'
