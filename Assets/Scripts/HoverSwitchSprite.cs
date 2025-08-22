@@ -67,6 +67,10 @@ public class HoverSwitchSprite : MonoBehaviour
         {
             StartCoroutine(PlayMonologues());
             StartCoroutine(MySceneManager.Instance.PlayMonologueSubtitles(monologueIdx));
+            DOVirtual.DelayedCall(MySceneManager.Instance.GetMonologueDuration(monologueIdx) - 0.1f, () =>
+            {
+                mouthManager.SetLastEncouragementTime(Time.timeSinceLevelLoad + 5f);
+            });
             DOVirtual.DelayedCall(MySceneManager.Instance.GetMonologueDuration(monologueIdx), () =>
             {
                 AudioSource music = SoundManager.Instance.musicSource;
