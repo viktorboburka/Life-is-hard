@@ -530,7 +530,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 33
+  orthographic size: 46
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1040,35 +1040,35 @@ MonoBehaviour:
       TangentIn:
         x: -0
         y: -0
-        z: -0.48776922
+        z: -0.48776916
       TangentOut:
         x: 0
         y: 0
-        z: 0.42624542
+        z: 0.42624533
       Rotation:
         value:
-          x: 0.410282
-          y: 0.5759069
+          x: 0.4102819
+          y: 0.5759068
           z: -0.5759068
-          w: -0.41028202
+          w: -0.410282
     - Position:
-        x: -2.777616
+        x: -2.7776155
         y: -0.4340024
         z: 0
       TangentIn:
         x: -0
         y: -0
-        z: -0.35220167
+        z: -0.35220173
       TangentOut:
         x: 0
         y: 0
-        z: 0.36261624
+        z: 0.3626163
       Rotation:
         value:
-          x: -0.24785554
-          y: 0.6622444
-          z: -0.6622444
-          w: 0.24785563
+          x: -0.2478556
+          y: 0.6622443
+          z: -0.6622443
+          w: 0.2478556
     - Position:
         x: -0.683942
         y: -0.0751152
@@ -1076,17 +1076,17 @@ MonoBehaviour:
       TangentIn:
         x: -0
         y: -0
-        z: -0.7469823
+        z: -0.74698216
       TangentOut:
         x: 0
         y: 0
-        z: 0.86160934
+        z: 0.8616093
       Rotation:
         value:
-          x: 0.57829154
-          y: -0.40691385
-          z: 0.4069139
-          w: -0.57829154
+          x: -0.57829154
+          y: 0.40691388
+          z: -0.40691388
+          w: 0.57829154
     - Position:
         x: 1.769858
         y: 1.3270565
