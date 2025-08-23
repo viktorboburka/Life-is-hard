@@ -208,7 +208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outroMonologue: {fileID: 2715761440167615672}
-  writingSound: {fileID: 0}
+  writingSound: {fileID: 4411143038713677875}
   nextSceneIdx: 6
   subtitlesContainer: {fileID: 7652890942964983201}
   outrosubtitles:
