@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -72,7 +73,8 @@ public class MySceneManager : MonoBehaviour
         StartCoroutine(PlayIntroSubtitles());
 
         DOVirtual.DelayedCall(GetIntroSubtitlesLength(), () => {
-            gameRunning = true;        
+            gameRunning = true;
+            ShowCharacters();
         });
 
     }
@@ -184,6 +186,15 @@ public class MySceneManager : MonoBehaviour
     public void NextScene() {
         Debug.Log("Next scene");
         LoadScene(nextSceneIdx);
+    }
+
+    void ShowCharacters() {
+        PostCardFlipper postCardFlipper = FindAnyObjectByType<PostCardFlipper>();
+        foreach (GameObject character in postCardFlipper.characters) {
+            character.SetActive(true);
+            character.GetComponent<SpriteRenderer>().color = new Vector4 (character.GetComponent<SpriteRenderer>().color.r, character.GetComponent<SpriteRenderer>().color.g, character.GetComponent<SpriteRenderer>().color.b, 0f);
+            character.GetComponent<SpriteRenderer>().DOFade(1f, 1f);
+        }
     }
 
 }

@@ -33,7 +33,7 @@ public class MoveAlongSpline : MonoBehaviour
         doneMoving = true;
         splineAnimate = GetComponent<SplineAnimate>();
         hintBehavior = GetComponent<MouthPartHintBehavior>();
-        hintBehavior?.SetHint(key);
+        //hintBehavior?.SetHint(key);
     }
 
     void Update()
