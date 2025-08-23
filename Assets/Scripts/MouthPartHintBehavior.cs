@@ -1,48 +1,110 @@
 using UnityEngine;
 using DG.Tweening;
 using TMPro;
+using System.Collections.Generic;
+using Unity.VisualScripting;
 
 public class MouthPartHintBehavior : MonoBehaviour
 {
-
-    [SerializeField] SpriteRenderer sprite;
-    Sequence spriteSequence;
+    [SerializeField] List<SpriteRenderer> sprites;
+    List<DG.Tweening.Sequence> spriteSequences;
     [SerializeField] TextMeshPro text;
-    Sequence textSequence;
+    DG.Tweening.Sequence textSequence;
 
-    
-    public void SetHint(KeyCode key) {
+    public void SetHint(KeyCode key)
+    {
         text.text = key.ToString();
     }
 
-    public void ShowHint() {
-        if (spriteSequence != null && textSequence != null)
-            if (spriteSequence.IsPlaying() || textSequence.IsPlaying()) return;
+    void Start() {
+        sprites = new();
+        foreach (SpriteRenderer sprite in GetComponentsInChildren<SpriteRenderer>(true)) {
+            sprites.Add(sprite);
+            //Debug.Log(sprite);
+        }
 
-        if (sprite.color.a == 1) return;
+        //want only hints, not mouth or mustache
+        sprites.Remove(GetComponent<SpriteRenderer>());
+        List<SpriteRenderer> mustaches = new();
+        foreach (SpriteRenderer sprite in sprites) {
+            if (sprite.gameObject.name.Contains("mustache")) {
+                mustaches.Add(sprite);
+            }
+        }
+        foreach (SpriteRenderer sprite in mustaches) {
+            sprites.Remove(sprite);
+        }
+    }
+
+    public void ShowHint()
+    {
+        if (spriteSequences == null)
+        {
+            spriteSequences = new List<DG.Tweening.Sequence>();
+            foreach (SpriteRenderer sprite in sprites)
+            {
+                spriteSequences.Add(DOTween.Sequence());
+            }
+        }
+
+        bool isPlaying = false;
+        foreach (DG.Tweening.Sequence sequence in spriteSequences)
+        {
+            if (sequence.IsPlaying())
+            {
+                isPlaying = true;
+                break;
+            }
+        }
+        if (isPlaying || textSequence != null && textSequence.IsPlaying()) return;
+
+
         if (text.color.a == 1) return;
 
-        spriteSequence = DOTween.Sequence();
+        foreach (DG.Tweening.Sequence sequence in spriteSequences)
+        {
+            sequence.Join(sprites[spriteSequences.IndexOf(sequence)].DOFade(1f, 0.5f).SetEase(Ease.OutCirc));
+            sequence.Play();
+        }
+
         textSequence = DOTween.Sequence();
-        spriteSequence.Join(sprite.DOFade(1f, 0.5f).SetEase(Ease.OutCirc));
-        spriteSequence.Play();
         textSequence.Join(text.DOFade(1f, 0.5f).SetEase(Ease.OutCirc));
         textSequence.Play();
     }
 
-    public void HideHint() {
-        if (spriteSequence != null && textSequence != null)
-            if (spriteSequence.IsPlaying() || textSequence.IsPlaying()) return;
+    public void HideHint()
+    {
+        if (spriteSequences == null)
+        {
+            spriteSequences = new List<DG.Tweening.Sequence>();
+            foreach (SpriteRenderer sprite in sprites)
+            {
+                spriteSequences.Add(DOTween.Sequence());
+            }
+        }
 
-        if (sprite.color.a == 0) return;
+        bool isPlaying = false;
+        foreach (DG.Tweening.Sequence sequence in spriteSequences)
+        {
+            if (sequence.IsPlaying())
+            {
+                isPlaying = true;
+                break;
+            }
+        }
+
+        if (isPlaying || (textSequence != null && textSequence.IsPlaying())) return;
+
         if (text.color.a == 0) return;
 
-        spriteSequence = DOTween.Sequence();
+        foreach (DG.Tweening.Sequence sequence in spriteSequences)
+        {
+            sequence.Join(sprites[spriteSequences.IndexOf(sequence)].DOFade(0f, 0.5f).SetEase(Ease.OutCirc));
+            sequence.Play();
+        }
+
         textSequence = DOTween.Sequence();
-        spriteSequence.Join(sprite.DOFade(0f, 0.5f).SetEase(Ease.OutCirc));
-        spriteSequence.Play();
         textSequence.Join(text.DOFade(0f, 0.5f).SetEase(Ease.OutCirc));
         textSequence.Play();
     }
-
 }
