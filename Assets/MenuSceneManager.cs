@@ -22,6 +22,9 @@ public class MenuSceneManager : MonoBehaviour
     [SerializeField] Button nextLevelButton;
     [SerializeField] Button sendPostcardButton;
 
+    [SerializeField] GameObject closeButton;
+    [SerializeField] GameObject restartButton;
+
 
     [System.Serializable] public class MonologueListWrapper {
         public List<TextMeshProUGUI> subtitles;
@@ -125,6 +128,22 @@ public class MenuSceneManager : MonoBehaviour
         outroPostcard.DORotate(new Vector3(0, 0, -30), duration).SetEase(Ease.InSine).OnComplete(() => {
             if (nextLevelButton != null) 
                 nextLevelButton.enabled = true;
+        });
+    }
+
+    public void CloseGame() {
+        Application.Quit();
+    }
+
+    public void RevealCloseAndRestartButtons() {
+        if (restartButton == null || closeButton == null) return;
+        DOVirtual.DelayedCall(3f, () => {
+            restartButton.SetActive(true);
+            closeButton.SetActive(true);
+            
+            restartButton.GetComponent<Image>().DOFade(1f, 2f);
+            closeButton.GetComponent<Image>().DOFade(1f, 2f);
+
         });
     }
 

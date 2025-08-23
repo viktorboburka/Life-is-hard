@@ -3062,11 +3062,11 @@ PrefabInstance:
     - target: {fileID: 7590934431177256264, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_Resource
       value: 
-      objectReference: {fileID: 8300000, guid: 112978ad356a1334dabeee94475ad2f3, type: 3}
+      objectReference: {fileID: 8300000, guid: ffbe7d4f91c183d49a3a562129bcc053, type: 3}
     - target: {fileID: 7590934431177256264, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 112978ad356a1334dabeee94475ad2f3, type: 3}
+      objectReference: {fileID: 8300000, guid: ffbe7d4f91c183d49a3a562129bcc053, type: 3}
     - target: {fileID: 7590934431177256264, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
