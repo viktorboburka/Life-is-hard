@@ -258,6 +258,30 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: df2aa873e393f574ca548ce5d1ae8929, type: 2}
+    - target: {fileID: 1512387863710741775, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512387863710741775, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512387863710741775, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512387863710741775, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512387863710741775, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -10.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512387863710741775, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2066668312829836542, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.528
@@ -454,6 +478,30 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: df2aa873e393f574ca548ce5d1ae8929, type: 2}
+    - target: {fileID: 8034192078536542998, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 8034192078536542998, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 8034192078536542998, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 8034192078536542998, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8034192078536542998, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -10.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8034192078536542998, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8486077413689101610, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1589,7 +1637,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_Sprite: {fileID: 7250689178599984176, guid: a93a6e533e285fd4e9c074b8e0f185e5, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.9092015, b: 0.8584906, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

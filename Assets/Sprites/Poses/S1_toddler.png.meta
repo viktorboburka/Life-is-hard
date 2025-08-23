@@ -106,12 +106,12 @@ TextureImporter:
       name: S1_toddler_0
       rect:
         serializedVersion: 2
-        x: 331
-        y: 234
-        width: 145
-        height: 263
+        x: 0
+        y: 0
+        width: 386
+        height: 700
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -130,10 +130,10 @@ TextureImporter:
         serializedVersion: 2
         x: 350
         y: 205
-        width: 38
+        width: 36
         height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -150,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fd792b535ee603e468b12c003a196a55
     internalID: 0
     vertices: []
     indices: 
