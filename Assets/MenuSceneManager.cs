@@ -11,6 +11,7 @@ public class MenuSceneManager : MonoBehaviour
     
     public static MenuSceneManager Instance;
     [SerializeField] AudioSource outroMonologue;
+    [SerializeField] AudioSource writingSound;
     [SerializeField] int nextSceneIdx = 0;
     [SerializeField] GameObject subtitlesContainer;
     [SerializeField] List<TextMeshProUGUI> outrosubtitles;
@@ -59,9 +60,11 @@ public class MenuSceneManager : MonoBehaviour
         outroMonologue.Play();
 
         StartCoroutine(PlayOutroSubtitles());
+        writingSound.Play();
 
         DOVirtual.DelayedCall(GetOutroSubtitlesLength(), () => {
             TriggerLevelEnd(); 
+            writingSound.Stop();
         });
 
     }
