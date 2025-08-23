@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cheesetween_badface_0: 4624779285937533526
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

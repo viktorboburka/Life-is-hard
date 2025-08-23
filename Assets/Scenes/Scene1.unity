@@ -484,6 +484,7 @@ GameObject:
   - component: {fileID: 530042614}
   - component: {fileID: 530042613}
   - component: {fileID: 530042615}
+  - component: {fileID: 530042616}
   m_Layer: 0
   m_Name: Baby
   m_TagString: Untagged
@@ -576,6 +577,18 @@ MonoBehaviour:
   ShadowOffset: {x: 0.67, y: -0.89}
   ShadowMaterial: {fileID: 2100000, guid: c9f4559edec7a2c41857bae6b4d74039, type: 2}
   shadowGameObject: {fileID: 0}
+--- !u!114 &530042616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530042612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a6ffcd035ac3f4ba605d654467d215, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &569188971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2421,6 +2434,7 @@ GameObject:
   - component: {fileID: 1733879841}
   - component: {fileID: 1733879840}
   - component: {fileID: 1733879842}
+  - component: {fileID: 1733879843}
   m_Layer: 0
   m_Name: S1_toddler_0
   m_TagString: Untagged
@@ -2513,6 +2527,18 @@ MonoBehaviour:
   ShadowOffset: {x: 0.67, y: -0.89}
   ShadowMaterial: {fileID: 2100000, guid: c9f4559edec7a2c41857bae6b4d74039, type: 2}
   shadowGameObject: {fileID: 0}
+--- !u!114 &1733879843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733879839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a6ffcd035ac3f4ba605d654467d215, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1795427842 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4391678636521214332, guid: abcf51514fa0686459807951b64e0860, type: 3}
