@@ -14,6 +14,7 @@ public class MouthPartHintBehavior : MonoBehaviour
     public void SetHint(KeyCode key)
     {
         text.text = key.ToString();
+        if (key == KeyCode.Space) text.text = " ";
     }
 
     void Start() {

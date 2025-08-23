@@ -72,10 +72,10 @@ public class MySceneManager : MonoBehaviour
 
         StartCoroutine(PlayIntroSubtitles());
 
-        DOVirtual.DelayedCall(GetIntroSubtitlesLength(), () => {
+        /*DOVirtual.DelayedCall(GetIntroSubtitlesLength(), () => {
             gameRunning = true;
             ShowCharacters();
-        });
+        });*/
 
     }
 
@@ -106,6 +106,8 @@ public class MySceneManager : MonoBehaviour
             introsubtitles[i].gameObject.SetActive(false);
         }
         subtitlesContainer.SetActive(false);
+        gameRunning = true;
+        ShowCharacters();
     }
 
     IEnumerator PlayOutroSubtitles()

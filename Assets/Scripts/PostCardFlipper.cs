@@ -23,6 +23,10 @@ public class PostCardFlipper : MonoBehaviour
     {
         sr = GetComponent<SpriteRenderer>();
         sr.sprite = front;
+        foreach (GameObject character in characters) {
+            SpriteRenderer sr = character.GetComponent<SpriteRenderer>();
+            sr.color = new Vector4(sr.color.r, sr.color.g, sr.color.b, 0f);
+        }
     }
 
     void Update()

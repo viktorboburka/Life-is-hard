@@ -43,6 +43,7 @@ public class DropShadow : MonoBehaviour
         var shadowRenderer = shadowGameObject.GetComponent<SpriteRenderer>();
         shadowRenderer.sortingLayerName = spriteRenderer.sortingLayerName;
         shadowRenderer.sortingOrder = spriteRenderer.sortingOrder - 1;
+        shadowRenderer.color = spriteRenderer.color;
     }
 
 }

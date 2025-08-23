@@ -112,9 +112,15 @@ public class MenuSceneManager : MonoBehaviour
     }
 
     public void SendPostCard() {
+        float duration = 2f;
         sendPostcardButton.enabled = false;
-        outroPostcard.DOMove(new Vector2(3000, 400), 2f);
-        outroPostcard.DORotate(new Vector3(0, 0, -30), 2f).OnComplete(() => {
+        outroPostcard.DOMove(outroPostcard.position + new Vector3(3000, 400, 0), duration).SetEase(Ease.InSine);
+        foreach (TextMeshProUGUI subtitle in outrosubtitles) {
+            var subT = subtitle.GetComponent<RectTransform>();
+            subT.DOMove(subT.position + new Vector3(3000, 400, 0), duration).SetEase(Ease.InSine);
+            subT.DORotate(new Vector3(0, 0, -30), duration).SetEase(Ease.InSine);
+        }
+        outroPostcard.DORotate(new Vector3(0, 0, -30), duration).SetEase(Ease.InSine).OnComplete(() => {
             if (nextLevelButton != null) 
                 nextLevelButton.enabled = true;
         });
