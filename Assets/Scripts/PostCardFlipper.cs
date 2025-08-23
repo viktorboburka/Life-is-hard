@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 
@@ -15,6 +16,8 @@ public class PostCardFlipper : MonoBehaviour
     bool flipping = false;
     bool done = false;
     [SerializeField] public float flipDuration;
+
+    [SerializeField] public List<GameObject> characters;
 
     void Start()
     {
