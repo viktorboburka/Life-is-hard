@@ -297,7 +297,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 51
   m_Sprite: {fileID: 7903152759291911534, guid: b8b8beca65f24014bb057cfbdfcc0f53, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_FlipX: 0
@@ -701,7 +701,7 @@ PrefabInstance:
       objectReference: {fileID: 5756380681857427472, guid: 490919cbf2626224b87c65507b002f79, type: 3}
     - target: {fileID: 4621436192132261898, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
       propertyPath: characters.Array.size
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4621436192132261898, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
       propertyPath: 'characters.Array.data[0]'
@@ -722,23 +722,23 @@ PrefabInstance:
     - target: {fileID: 4621436192132261898, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
       propertyPath: 'characters.Array.data[4]'
       value: 
-      objectReference: {fileID: 71260789}
+      objectReference: {fileID: 1929874078}
     - target: {fileID: 4621436192132261898, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
       propertyPath: 'characters.Array.data[5]'
       value: 
-      objectReference: {fileID: 1929874078}
+      objectReference: {fileID: 746897234}
     - target: {fileID: 4621436192132261898, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
       propertyPath: 'characters.Array.data[6]'
       value: 
-      objectReference: {fileID: 746897234}
+      objectReference: {fileID: 1733879839}
     - target: {fileID: 4621436192132261898, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
       propertyPath: 'characters.Array.data[7]'
       value: 
-      objectReference: {fileID: 974179556}
+      objectReference: {fileID: 530042612}
     - target: {fileID: 4621436192132261898, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
       propertyPath: 'characters.Array.data[8]'
       value: 
-      objectReference: {fileID: 1733879839}
+      objectReference: {fileID: 530042612}
     - target: {fileID: 4621436192132261898, guid: 7f1edfcd644053b4dadd18f24d375704, type: 3}
       propertyPath: 'characters.Array.data[9]'
       value: 
@@ -1881,7 +1881,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 51
   m_Sprite: {fileID: 7903152759291911534, guid: b8b8beca65f24014bb057cfbdfcc0f53, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_FlipX: 0

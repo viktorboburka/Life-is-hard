@@ -416,6 +416,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 7936040018910559569, guid: 143baf4de418ed240948d14e82d30179, type: 3}
+    - target: {fileID: 2111688083068855913, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 6d4a72985d450b744adf614ef91a9815, type: 3}
+    - target: {fileID: 2111688083068855913, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6d4a72985d450b744adf614ef91a9815, type: 3}
     - target: {fileID: 2182549740817083549, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_MaxSpeed
       value: 0.15864316
@@ -892,6 +900,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.8369999
       objectReference: {fileID: 0}
+    - target: {fileID: 8551334378263536684, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 9ed918da651061c41b3d578c86ad3a48, type: 3}
+    - target: {fileID: 8551334378263536684, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9ed918da651061c41b3d578c86ad3a48, type: 3}
     - target: {fileID: 9187183983336594782, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Sprite
       value: 

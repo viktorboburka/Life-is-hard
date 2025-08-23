@@ -60,7 +60,9 @@ public class MenuSceneManager : MonoBehaviour
         outroMonologue.Play();
 
         StartCoroutine(PlayOutroSubtitles());
-        writingSound.Play();
+
+        if (outrosubtitles.Count != 0)
+            writingSound.Play();
 
         DOVirtual.DelayedCall(GetOutroSubtitlesLength(), () => {
             TriggerLevelEnd(); 
