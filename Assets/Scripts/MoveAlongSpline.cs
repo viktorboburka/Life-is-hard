@@ -17,11 +17,12 @@ public class MoveAlongSpline : MonoBehaviour
     float acceleration = 0.015f;
     SplineAnimate splineAnimate;
 
-    float tapMaxSpeed = 0.15f;
-    float tapMinSpeed = -0.15f;
-    float tapSpeed = 0f;
-    float tapAcceleration = 0.003f;
-    float tapDecceleration = 0.005f;
+    [SerializeField] float tapMaxSpeed = 0.15f;
+    [SerializeField] float tapMinSpeed = -0.15f;
+    [SerializeField] float tapSpeed = 0f;
+    [SerializeField] float tapAcceleration = 0.003f;
+    [SerializeField] float tapDecceleration = 0.005f;
+    [SerializeField] float tapDeccelerationWhileMovingUp = 0.015f;
 
     public bool doneMoving = true;
 
@@ -45,12 +46,19 @@ public class MoveAlongSpline : MonoBehaviour
     
     void HintUpdate() {
         if (!hintBehavior || doneMoving) return;
-        if (lastKeyPressedTime + showHintAfterIdleSeconds < Time.timeSinceLevelLoad) {
+
+        if (progress > 0.75f) {
+            hintBehavior.HideHint();
+        }
+        if (lastKeyPressedTime + showHintAfterIdleSeconds < Time.timeSinceLevelLoad && progress < 0.01f) {
+            hintBehavior.ShowHint();
+        }
+        /*if (lastKeyPressedTime + showHintAfterIdleSeconds < Time.timeSinceLevelLoad) {
             hintBehavior.ShowHint();
         }
         if (lastKeyPressed) {
             hintBehavior.HideHint();
-        }
+        }*/
     }
 
     void TapControlsUpdate() {
@@ -70,9 +78,9 @@ public class MoveAlongSpline : MonoBehaviour
             SoundManager.Instance.PlayLetterClickSound();
         }
         else {
-            tapSpeed -= tapDecceleration * Time.deltaTime;
             //decceleration is 2x faster if the lip is moving up
-            if (tapSpeed > 0f) tapSpeed -= tapDecceleration * Time.deltaTime;
+            if (tapSpeed > 0f) tapSpeed -= tapDeccelerationWhileMovingUp * Time.deltaTime;
+            else tapSpeed -= tapDecceleration * Time.deltaTime;
             tapSpeed = Mathf.Clamp(tapSpeed, tapMinSpeed, tapMaxSpeed);
 
             progress += tapSpeed;

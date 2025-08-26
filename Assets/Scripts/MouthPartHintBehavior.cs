@@ -2,6 +2,7 @@ using UnityEngine;
 using DG.Tweening;
 using TMPro;
 using System.Collections.Generic;
+using System.Collections;
 using Unity.VisualScripting;
 
 public class MouthPartHintBehavior : MonoBehaviour
@@ -10,6 +11,9 @@ public class MouthPartHintBehavior : MonoBehaviour
     List<DG.Tweening.Sequence> spriteSequences;
     [SerializeField] TextMeshPro text;
     DG.Tweening.Sequence textSequence;
+
+    float timer = 0;
+    bool isDark = false;
 
     public void SetHint(KeyCode key)
     {
@@ -36,6 +40,7 @@ public class MouthPartHintBehavior : MonoBehaviour
             sprites.Remove(sprite);
         }
     }
+    
 
     public void ShowHint()
     {
