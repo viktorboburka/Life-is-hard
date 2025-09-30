@@ -47,10 +47,10 @@ public class MoveAlongSpline : MonoBehaviour
     void HintUpdate() {
         if (!hintBehavior || doneMoving) return;
 
-        if (progress > 0.75f) {
+        if (progress > 0.95f) {
             hintBehavior.HideHint();
         }
-        if (lastKeyPressedTime + showHintAfterIdleSeconds < Time.timeSinceLevelLoad && progress < 0.01f) {
+        if (/*lastKeyPressedTime + showHintAfterIdleSeconds < Time.timeSinceLevelLoad && */ progress < 0.90f ) {
             hintBehavior.ShowHint();
         }
         /*if (lastKeyPressedTime + showHintAfterIdleSeconds < Time.timeSinceLevelLoad) {

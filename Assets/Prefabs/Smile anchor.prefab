@@ -465,9 +465,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c007c42c33334c42b7da5151cb7cdcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 106
+  key: 108
   progress: 0
-  doneMoving: 1
+  tapMaxSpeed: 0.15
+  tapMinSpeed: -0.15
+  tapSpeed: 0
+  tapAcceleration: 0.13
+  tapDecceleration: 0.005
+  tapDeccelerationWhileMovingUp: 0.5
+  doneMoving: 0
 --- !u!114 &2173713102801057295
 MonoBehaviour:
   m_ObjectHideFlags: 0

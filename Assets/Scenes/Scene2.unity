@@ -2752,6 +2752,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 467890979640621, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 467890979640621, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 467890979640621, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1141618647753791777, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_text
       value: Oh no, my ice cream fell down on the ground.
