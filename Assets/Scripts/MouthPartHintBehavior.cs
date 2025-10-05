@@ -40,7 +40,8 @@ public class MouthPartHintBehavior : MonoBehaviour
             sprites.Remove(sprite);
         }
     }
-    
+
+
 
     public void ShowHint()
     {
@@ -112,5 +113,21 @@ public class MouthPartHintBehavior : MonoBehaviour
         textSequence = DOTween.Sequence();
         textSequence.Join(text.DOFade(0f, 0.5f).SetEase(Ease.OutCirc));
         textSequence.Play();
+    }    
+
+    void Zmenseni() {
+        foreach (SpriteRenderer sprite in sprites) {
+            sprite.transform.DOScale(0.8f, 0.05f);
+        }
+
+        DOVirtual.DelayedCall(0.075f, () => Zvetseni());
+    }
+
+    void Zvetseni() {
+        foreach (SpriteRenderer sprite in sprites) {
+            sprite.transform.DOScale(1f, 0.05f);
+        }
+
+        DOVirtual.DelayedCall(0.075f, () => Zmenseni());
     }
 }

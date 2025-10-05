@@ -50,7 +50,7 @@ public class MouthManager : MonoBehaviour
             currentHoldTime += Time.deltaTime;
             if (Time.timeSinceLevelLoad - lastSuccessSoundPlayedAt > randomizedDelaySuccess) {
                 lastSuccessSoundPlayedAt = Time.timeSinceLevelLoad;
-                successSound.Play();
+                //successSound.Play();
                 randomizedDelaySuccess = Random.Range(3f, 5f);
             }
         }
@@ -74,9 +74,10 @@ public class MouthManager : MonoBehaviour
         foreach (MoveAlongSpline piece in pieces) {
             piece.doneMoving = true;
         }
-        DOVirtual.DelayedCall(0.5f, () => SoundManager.Instance.PlayCameraSound());
-        DOVirtual.DelayedCall(0.75f, () => MySceneManager.Instance.PlayCameraFlashAnimation());
-        DOVirtual.DelayedCall(3.0f, () => hoverSwitchSprite.ReturnToBigPicture());
+        successSound.Play();
+        DOVirtual.DelayedCall(1.0f, () => SoundManager.Instance.PlayCameraSound());
+        DOVirtual.DelayedCall(1.25f, () => MySceneManager.Instance.PlayCameraFlashAnimation());
+        DOVirtual.DelayedCall(3.5f, () => hoverSwitchSprite.ReturnToBigPicture());
     }
 
     public void SetStarted(bool b) {

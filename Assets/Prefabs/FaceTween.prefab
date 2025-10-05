@@ -903,11 +903,11 @@ PrefabInstance:
     - target: {fileID: 8551334378263536684, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Resource
       value: 
-      objectReference: {fileID: 8300000, guid: 9ed918da651061c41b3d578c86ad3a48, type: 3}
+      objectReference: {fileID: 8300000, guid: 03a2e9ebed6bce443b0808f06d3670fc, type: 3}
     - target: {fileID: 8551334378263536684, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 9ed918da651061c41b3d578c86ad3a48, type: 3}
+      objectReference: {fileID: 8300000, guid: 03a2e9ebed6bce443b0808f06d3670fc, type: 3}
     - target: {fileID: 9187183983336594782, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Sprite
       value: 

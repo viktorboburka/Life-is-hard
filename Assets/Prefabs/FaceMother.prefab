@@ -1180,6 +1180,14 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.54
       objectReference: {fileID: 0}
+    - target: {fileID: 8551334378263536684, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 5081dbe432d54f846ad401292166b927, type: 3}
+    - target: {fileID: 8551334378263536684, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5081dbe432d54f846ad401292166b927, type: 3}
     - target: {fileID: 9187183983336594782, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Sprite
       value: 
