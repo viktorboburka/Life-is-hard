@@ -19,7 +19,7 @@ public class MoveAlongSpline : MonoBehaviour
 
     [SerializeField] float tapMaxSpeed = 0.15f;
     [SerializeField] float tapMinSpeed = -0.15f;
-    [SerializeField] float tapSpeed = 0f;
+    /*[SerializeField]*/ float tapSpeed = 0f;
     [SerializeField] float tapAcceleration = 0.003f;
     [SerializeField] float tapDecceleration = 0.005f;
     [SerializeField] float tapDeccelerationWhileMovingUp = 0.015f;
@@ -70,7 +70,7 @@ public class MoveAlongSpline : MonoBehaviour
         if (currentKeyPress) {
             lastKeyPressedTime = Time.timeSinceLevelLoad;
             tapSpeed += tapAcceleration;
-            if (progress < 0.01f) tapSpeed *= 3;
+            if (progress < 0.01f) tapSpeed *= 1.5f;
             tapSpeed = Mathf.Clamp(tapSpeed, tapMinSpeed, tapMaxSpeed);
 
             progress += tapSpeed;

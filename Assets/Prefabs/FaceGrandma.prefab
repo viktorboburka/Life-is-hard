@@ -380,6 +380,22 @@ PrefabInstance:
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.data[1].Rotation.value.z
       value: -0.24223463
       objectReference: {fileID: 0}
+    - target: {fileID: 819713527881778872, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 819713527881778872, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 819713527881778872, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 819713527881778872, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.04
+      objectReference: {fileID: 0}
     - target: {fileID: 1138612997501580660, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -406,11 +422,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1406386110264014267, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.027999846
+      value: -0.02799987
       objectReference: {fileID: 0}
     - target: {fileID: 1406386110264014267, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3369999
+      value: 1.3369997
       objectReference: {fileID: 0}
     - target: {fileID: 1506487330213188682, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Sprite
@@ -424,6 +440,22 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -453124876421841605, guid: 4c87db2f5f3075d4595accca67792778, type: 3}
+    - target: {fileID: 2107788645010391818, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107788645010391818, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107788645010391818, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107788645010391818, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.04
+      objectReference: {fileID: 0}
     - target: {fileID: 2111688083068855913, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Resource
       value: 
@@ -688,13 +720,45 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -6620821115996921585, guid: 2916cd4ca87a55f47b8632188274ec79, type: 3}
+    - target: {fileID: 3090456880390281896, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3090456880390281896, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 3090456880390281896, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3090456880390281896, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184170583009011192, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184170583009011192, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184170583009011192, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184170583009011192, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.04
+      objectReference: {fileID: 0}
     - target: {fileID: 3409985014088104631, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_MaxSpeed
       value: 0.1928208
       objectReference: {fileID: 0}
     - target: {fileID: 3665122061628554012, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3369999
+      value: 1.3369997
       objectReference: {fileID: 0}
     - target: {fileID: 3687171992168188206, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Sprite
@@ -703,6 +767,22 @@ PrefabInstance:
     - target: {fileID: 3752011180505684367, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 1.1428572
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145789103099368604, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145789103099368604, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145789103099368604, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145789103099368604, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 4270983701127373906, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -800,6 +880,22 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.837
       objectReference: {fileID: 0}
+    - target: {fileID: 5388902648391579832, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5388902648391579832, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 5388902648391579832, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5388902648391579832, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.04
+      objectReference: {fileID: 0}
     - target: {fileID: 5639898154392883063, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.data[2].Position.x
       value: -0.21399772
@@ -860,6 +956,22 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 1.1428572
       objectReference: {fileID: 0}
+    - target: {fileID: 6571688190059947582, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571688190059947582, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571688190059947582, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571688190059947582, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.04
+      objectReference: {fileID: 0}
     - target: {fileID: 6634721566507046547, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_MaxSpeed
       value: 0.23038702
@@ -884,6 +996,22 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -1133204995820251042, guid: 9b3f6a1c5c5bf10458df3759700d87bb, type: 3}
+    - target: {fileID: 7714421517044159673, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7714421517044159673, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 7714421517044159673, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7714421517044159673, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.04
+      objectReference: {fileID: 0}
     - target: {fileID: 7743811029801183504, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.data[1].Position.x
       value: 0.071002126
@@ -978,7 +1106,23 @@ PrefabInstance:
       objectReference: {fileID: -7865954190237333935, guid: d65188e481e6cd844be106dc561167d5, type: 3}
     - target: {fileID: 8108621627019903250, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8369999
+      value: 0.8369997
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113460387751491041, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113460387751491041, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113460387751491041, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113460387751491041, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 8482773158106408847, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -992,6 +1136,22 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 736c82b9175c43643bf9c102eaeb34ab, type: 3}
+    - target: {fileID: 8922317272466271890, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8922317272466271890, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 8922317272466271890, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8922317272466271890, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.04
+      objectReference: {fileID: 0}
     - target: {fileID: 9187183983336594782, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Sprite
       value: 

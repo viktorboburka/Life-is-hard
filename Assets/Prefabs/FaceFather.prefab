@@ -1051,6 +1051,22 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: -6
       objectReference: {fileID: 0}
+    - target: {fileID: 819713527881778872, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 819713527881778872, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMinSpeed
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 819713527881778872, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 819713527881778872, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.012
+      objectReference: {fileID: 0}
     - target: {fileID: 1050649720330311350, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_MaxSpeed
       value: 0.4447799
@@ -1170,6 +1186,22 @@ PrefabInstance:
     - target: {fileID: 2026370127158497019, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -1.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107788645010391818, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107788645010391818, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMinSpeed
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107788645010391818, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 2107788645010391818, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.012
       objectReference: {fileID: 0}
     - target: {fileID: 2111688083068855913, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Resource
@@ -1527,6 +1559,38 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: -3
       objectReference: {fileID: 0}
+    - target: {fileID: 3090456880390281896, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3090456880390281896, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMinSpeed
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3090456880390281896, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 3090456880390281896, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184170583009011192, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184170583009011192, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMinSpeed
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184170583009011192, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184170583009011192, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.012
+      objectReference: {fileID: 0}
     - target: {fileID: 3409985014088104631, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_MaxSpeed
       value: 0.28114164
@@ -1715,6 +1779,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -1.26
       objectReference: {fileID: 0}
+    - target: {fileID: 4145789103099368604, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145789103099368604, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMinSpeed
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145789103099368604, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145789103099368604, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.012
+      objectReference: {fileID: 0}
     - target: {fileID: 4270983701127373906, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1834,6 +1914,22 @@ PrefabInstance:
     - target: {fileID: 5332037262041815794, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.83700013
+      objectReference: {fileID: 0}
+    - target: {fileID: 5388902648391579832, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5388902648391579832, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMinSpeed
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5388902648391579832, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 5388902648391579832, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.012
       objectReference: {fileID: 0}
     - target: {fileID: 5639898154392883063, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.size
@@ -2239,6 +2335,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -1.27
       objectReference: {fileID: 0}
+    - target: {fileID: 6571688190059947582, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571688190059947582, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMinSpeed
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571688190059947582, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 6571688190059947582, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.012
+      objectReference: {fileID: 0}
     - target: {fileID: 6634721566507046547, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_MaxSpeed
       value: 0.44285816
@@ -2370,6 +2482,22 @@ PrefabInstance:
     - target: {fileID: 7711525820184237525, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7714421517044159673, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7714421517044159673, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMinSpeed
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7714421517044159673, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 7714421517044159673, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.012
       objectReference: {fileID: 0}
     - target: {fileID: 7743811029801183504, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.size
@@ -2511,6 +2639,22 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.837
       objectReference: {fileID: 0}
+    - target: {fileID: 8113460387751491041, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113460387751491041, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMinSpeed
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113460387751491041, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113460387751491041, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.012
+      objectReference: {fileID: 0}
     - target: {fileID: 8381824950068094590, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.37000048
@@ -2546,6 +2690,22 @@ PrefabInstance:
     - target: {fileID: 8708791521934606597, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_MaxSpeed
       value: 0.48863685
+      objectReference: {fileID: 0}
+    - target: {fileID: 8922317272466271890, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8922317272466271890, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapMinSpeed
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8922317272466271890, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 8922317272466271890, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.012
       objectReference: {fileID: 0}
     - target: {fileID: 9187183983336594782, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Size.x
