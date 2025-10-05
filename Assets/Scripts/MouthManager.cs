@@ -46,7 +46,7 @@ public class MouthManager : MonoBehaviour
         }
         totalProgress /= pieces.Count;
         
-        if (totalProgress >= 0.9f) {
+        if (totalProgress >= 0.8f) {
             currentHoldTime += Time.deltaTime;
             if (Time.timeSinceLevelLoad - lastSuccessSoundPlayedAt > randomizedDelaySuccess) {
                 lastSuccessSoundPlayedAt = Time.timeSinceLevelLoad;
