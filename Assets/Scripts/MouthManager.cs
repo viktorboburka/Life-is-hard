@@ -74,6 +74,7 @@ public class MouthManager : MonoBehaviour
         foreach (MoveAlongSpline piece in pieces) {
             piece.doneMoving = true;
             piece.hintBehavior?.HideHint();
+            DOVirtual.DelayedCall(0.1f, () => piece.hintBehavior?.HideHint());
         }
         successSound.Play();
         DOVirtual.DelayedCall(1.0f, () => SoundManager.Instance.PlayCameraSound());

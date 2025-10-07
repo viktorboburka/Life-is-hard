@@ -218,6 +218,22 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: df2aa873e393f574ca548ce5d1ae8929, type: 2}
+    - target: {fileID: 515375145428805973, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 515375145428805973, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 515375145428805973, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 515375145428805973, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 517083180180760633, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -290,6 +306,22 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1728163725312676734, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728163725312676734, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728163725312676734, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 1728163725312676734, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 1764253182017788818, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.03
@@ -308,7 +340,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2066668312829836542, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1.0000011
+      value: 1.0000029
       objectReference: {fileID: 0}
     - target: {fileID: 2066668312829836542, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_LocalRotation.x
@@ -320,7 +352,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2066668312829836542, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000030113604
+      value: 0.000000044785004
+      objectReference: {fileID: 0}
+    - target: {fileID: 2067458673696049165, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2067458673696049165, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 2067458673696049165, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 2067458673696049165, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 2471911598397027992, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -342,6 +390,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2801487328346883412, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801487328346883412, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801487328346883412, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 2801487328346883412, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 3334563424323677914, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.7220015
@@ -352,7 +416,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3334563424323677914, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1.0000007
+      value: 1.0000011
       objectReference: {fileID: 0}
     - target: {fileID: 3334563424323677914, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_LocalRotation.x
@@ -364,7 +428,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3334563424323677914, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000029414418
+      value: 0.000000030113604
       objectReference: {fileID: 0}
     - target: {fileID: 3699411482545677269, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_IsActive
@@ -377,6 +441,22 @@ PrefabInstance:
     - target: {fileID: 3912914985637708115, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_text
       value: L
+      objectReference: {fileID: 0}
+    - target: {fileID: 3970635687156407250, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 3970635687156407250, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 3970635687156407250, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3970635687156407250, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 4064169097076222824, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -418,10 +498,42 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -1.13
       objectReference: {fileID: 0}
+    - target: {fileID: 4618909602435913748, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 4618909602435913748, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 4618909602435913748, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 4618909602435913748, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 4950782752796830680, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: df2aa873e393f574ca548ce5d1ae8929, type: 2}
+    - target: {fileID: 5100988077233825604, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100988077233825604, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100988077233825604, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100988077233825604, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 5115862847140391289, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_text
       value: Q
@@ -466,6 +578,22 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: df2aa873e393f574ca548ce5d1ae8929, type: 2}
+    - target: {fileID: 6170237912827373936, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 6170237912827373936, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 6170237912827373936, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 6170237912827373936, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 6299496315235293630, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.33
@@ -574,6 +702,22 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: df2aa873e393f574ca548ce5d1ae8929, type: 2}
+    - target: {fileID: 7442742185619667796, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 7442742185619667796, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 7442742185619667796, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 7442742185619667796, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 8034192078536542998, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.48
@@ -621,6 +765,22 @@ PrefabInstance:
     - target: {fileID: 8065859728068169946, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_LocalRotation.z
       value: -1.5473556e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172209315644915430, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172209315644915430, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172209315644915430, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172209315644915430, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 8486077413689101610, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -684,7 +844,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9200193501353019479, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1.0000014
+      value: 1.0000025
       objectReference: {fileID: 0}
     - target: {fileID: 9200193501353019479, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_LocalRotation.x
@@ -696,7 +856,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9200193501353019479, guid: 5c51e679a7edef740853a2acce168bf6, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000014820385
+      value: 0.000000015215852
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1457,6 +1617,22 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -1.28
       objectReference: {fileID: 0}
+    - target: {fileID: 284469335692163871, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 284469335692163871, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 284469335692163871, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 284469335692163871, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 289381673686571273, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -1537,6 +1713,22 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1196246984819963179, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196246984819963179, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196246984819963179, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196246984819963179, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 1201484518121208598, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_text
       value: Q
@@ -1545,6 +1737,22 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: df2aa873e393f574ca548ce5d1ae8929, type: 2}
+    - target: {fileID: 1606127164699200123, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606127164699200123, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606127164699200123, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606127164699200123, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 1763755520884371124, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.77800417
@@ -1597,6 +1805,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -0.95
       objectReference: {fileID: 0}
+    - target: {fileID: 2826625563004906633, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 2826625563004906633, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 2826625563004906633, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 2826625563004906633, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 2902126466766036019, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.77800256
@@ -1631,7 +1855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3025876703862069816, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1.0000018
+      value: 1.0000038
       objectReference: {fileID: 0}
     - target: {fileID: 3025876703862069816, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1643,7 +1867,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3025876703862069816, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -1.5185964e-10
+      value: 3.9546666e-10
       objectReference: {fileID: 0}
     - target: {fileID: 3068312025713703202, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_Name
@@ -1664,6 +1888,22 @@ PrefabInstance:
     - target: {fileID: 3334708140483877884, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_LocalPosition.y
       value: -1.262
+      objectReference: {fileID: 0}
+    - target: {fileID: 3538241060863584571, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 3538241060863584571, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 3538241060863584571, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3538241060863584571, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 3870637303612906231, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -1693,10 +1933,42 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -1.5473556e-10
       objectReference: {fileID: 0}
+    - target: {fileID: 4731064577413824785, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 4731064577413824785, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 4731064577413824785, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 4731064577413824785, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 4973382788900188893, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: df2aa873e393f574ca548ce5d1ae8929, type: 2}
+    - target: {fileID: 5396054934168869474, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 5396054934168869474, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 5396054934168869474, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 5396054934168869474, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 5403741258115067537, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.5280048
@@ -1707,7 +1979,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5403741258115067537, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1.0000011
+      value: 1.0000021
       objectReference: {fileID: 0}
     - target: {fileID: 5403741258115067537, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1719,7 +1991,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5403741258115067537, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000030113604
+      value: -3.8396297e-10
       objectReference: {fileID: 0}
     - target: {fileID: 5631846999236069885, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1728,6 +2000,22 @@ PrefabInstance:
     - target: {fileID: 5631846999236069885, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_LocalPosition.y
       value: -1.241
+      objectReference: {fileID: 0}
+    - target: {fileID: 5869684675043949370, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 5869684675043949370, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 5869684675043949370, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 5869684675043949370, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 5872334938859502166, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_Enabled
@@ -1776,6 +2064,22 @@ PrefabInstance:
     - target: {fileID: 6926187237481124668, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_text
       value: L
+      objectReference: {fileID: 0}
+    - target: {fileID: 7010202417382246845, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 7010202417382246845, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 7010202417382246845, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 7010202417382246845, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 7243040873947152012, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_LocalScale.x
@@ -1844,6 +2148,22 @@ PrefabInstance:
     - target: {fileID: 8065467643384456700, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_LocalPosition.y
       value: -1.193
+      objectReference: {fileID: 0}
+    - target: {fileID: 8120926963092870971, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapMaxSpeed
+      value: 0.075
+      objectReference: {fileID: 0}
+    - target: {fileID: 8120926963092870971, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapAcceleration
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 8120926963092870971, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDecceleration
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 8120926963092870971, guid: ada91bd98e92309429757274e1d31110, type: 3}
+      propertyPath: tapDeccelerationWhileMovingUp
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 8131021372819720256, guid: ada91bd98e92309429757274e1d31110, type: 3}
       propertyPath: m_IsActive

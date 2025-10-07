@@ -210,6 +210,7 @@ GameObject:
   - component: {fileID: 4215053607044837844}
   - component: {fileID: 8484987549951345312}
   - component: {fileID: 9221789605718168098}
+  - component: {fileID: 5198704150302727526}
   m_Layer: 0
   m_Name: ControlsHintSprite
   m_TagString: Untagged
@@ -309,6 +310,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5198704150302727526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6403423284345434180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 088fe72e3265737489d4905ca01ac3d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8592039633116824501
 GameObject:
   m_ObjectHideFlags: 0
@@ -519,6 +532,7 @@ MonoBehaviour:
   tapDecceleration: 0.005
   tapDeccelerationWhileMovingUp: 0.5
   doneMoving: 0
+  hintBehavior: {fileID: 0}
 --- !u!114 &2173713102801057295
 MonoBehaviour:
   m_ObjectHideFlags: 0
