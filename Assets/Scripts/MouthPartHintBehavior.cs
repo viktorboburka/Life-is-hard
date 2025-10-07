@@ -81,7 +81,6 @@ public class MouthPartHintBehavior : MonoBehaviour
 
     public void HideHint()
     {
-        return;
         if (spriteSequences == null)
         {
             spriteSequences = new List<DG.Tweening.Sequence>();

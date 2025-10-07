@@ -456,6 +456,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: ebaf5168a464e1c4481177e596a5a768, type: 2}
+    - target: {fileID: 1608433744079195616, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 650c01706d14dd74ca7e6c6e73ece88d, type: 2}
     - target: {fileID: 1868221969895452870, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -519,6 +523,10 @@ PrefabInstance:
     - target: {fileID: 2390802607790849260, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2450081544328577335, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.77799994
       objectReference: {fileID: 0}
     - target: {fileID: 2450081544328577335, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -800,6 +808,10 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.54
       objectReference: {fileID: 0}
+    - target: {fileID: 4004921492554981857, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 54f15286e37088146834b9e4c7936977, type: 2}
     - target: {fileID: 4145789103099368604, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: tapMaxSpeed
       value: 0.1
@@ -1104,6 +1116,10 @@ PrefabInstance:
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.data[0].Rotation.value.z
       value: 0.00014222255
       objectReference: {fileID: 0}
+    - target: {fileID: 6339734033293177824, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d7cc28e0d113d534aad9241498d5241c, type: 2}
     - target: {fileID: 6571688190059947582, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: tapMaxSpeed
       value: 0.1

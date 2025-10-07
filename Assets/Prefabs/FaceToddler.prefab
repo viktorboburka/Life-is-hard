@@ -242,7 +242,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 272022724186254646, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3370001
+      value: 1.3370003
       objectReference: {fileID: 0}
     - target: {fileID: 502479490635549611, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -320,6 +320,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0a2135dda588bb44e91a65a609bcff1b, type: 2}
+    - target: {fileID: 1608433744079195616, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 650c01706d14dd74ca7e6c6e73ece88d, type: 2}
     - target: {fileID: 1868221969895452870, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -560,6 +564,10 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.54
       objectReference: {fileID: 0}
+    - target: {fileID: 4004921492554981857, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 54f15286e37088146834b9e4c7936977, type: 2}
     - target: {fileID: 4145789103099368604, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: tapMaxSpeed
       value: 0.1
@@ -634,7 +642,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4787155213167874870, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.337
+      value: 1.3370001
       objectReference: {fileID: 0}
     - target: {fileID: 4945962975300366757, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -704,6 +712,10 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.54
       objectReference: {fileID: 0}
+    - target: {fileID: 6339734033293177824, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d7cc28e0d113d534aad9241498d5241c, type: 2}
     - target: {fileID: 6571688190059947582, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: tapMaxSpeed
       value: 0.1

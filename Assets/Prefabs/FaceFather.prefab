@@ -1163,6 +1163,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -1.14
       objectReference: {fileID: 0}
+    - target: {fileID: 1608433744079195616, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 650c01706d14dd74ca7e6c6e73ece88d, type: 2}
     - target: {fileID: 1868221969895452870, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Size.x
       value: 1.29
@@ -1771,6 +1775,10 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 01f868b4f518a544498bb79c5c3c02ea, type: 3}
+    - target: {fileID: 4004921492554981857, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 54f15286e37088146834b9e4c7936977, type: 2}
     - target: {fileID: 4033118674840640936, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -0.37
@@ -2335,6 +2343,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -1.27
       objectReference: {fileID: 0}
+    - target: {fileID: 6339734033293177824, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d7cc28e0d113d534aad9241498d5241c, type: 2}
     - target: {fileID: 6571688190059947582, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: tapMaxSpeed
       value: 0.1

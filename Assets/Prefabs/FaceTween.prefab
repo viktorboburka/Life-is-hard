@@ -242,7 +242,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 272022724186254646, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3370001
+      value: 1.337
       objectReference: {fileID: 0}
     - target: {fileID: 724938462276653026, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_Splines.Array.data[0].m_Knots.Array.data[1].Position.x
@@ -479,6 +479,10 @@ PrefabInstance:
     - target: {fileID: 2390802607790849260, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.y
       value: -3.206
+      objectReference: {fileID: 0}
+    - target: {fileID: 2450081544328577335, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7779998
       objectReference: {fileID: 0}
     - target: {fileID: 2450081544328577335, guid: 597d4f1a0c4db0f42965204c29280a8e, type: 3}
       propertyPath: m_LocalPosition.y

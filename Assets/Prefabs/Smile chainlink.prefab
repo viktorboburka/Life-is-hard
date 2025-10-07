@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8106760237008054108}
   - component: {fileID: 884635178787785111}
+  - component: {fileID: 3694799943784063171}
   m_Layer: 0
   m_Name: ControlsHintSprite
   m_TagString: Untagged
@@ -87,6 +88,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &3694799943784063171
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643272847322595250}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c57e7898a6b7b37409c6664e42a1b2b5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4635462659638750603
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,7 +320,6 @@ MonoBehaviour:
   progress: 0
   tapMaxSpeed: 0.15
   tapMinSpeed: -0.15
-  tapSpeed: 0
   tapAcceleration: 0.13
   tapDecceleration: 0.005
   tapDeccelerationWhileMovingUp: 0.5
@@ -350,13 +372,14 @@ GameObject:
   - component: {fileID: 3686831851624602762}
   - component: {fileID: 2793047904544245090}
   - component: {fileID: 4528789996050411420}
+  - component: {fileID: 1486463996904483484}
   m_Layer: 0
   m_Name: ControlsHintText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3686831851624602762
 RectTransform:
   m_ObjectHideFlags: 0
@@ -515,3 +538,25 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 2793047904544245090}
   m_maskType: 0
+--- !u!95 &1486463996904483484
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7276013408071063265}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e29d9fe0a1cf27e42ae6b87734e1c2ca, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

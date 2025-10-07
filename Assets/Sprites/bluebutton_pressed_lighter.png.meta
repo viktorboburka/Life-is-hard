@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3dad24a7b3a7e5e498c1300b22b97afa
+guid: 7dd11c23f425eeb408b7bbee759b4e8b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9199166544375692200
-    second: bluebutton_idle_0
+      213: -4525071737786415811
+    second: bluebutton_pressed_lighter_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bluebutton_idle_0
+      name: bluebutton_pressed_lighter_0
       rect:
         serializedVersion: 2
         x: 9
         y: 7
         width: 102
-        height: 106
+        height: 102
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8abbb2b9b310aaf70800000000000000
-      internalID: 9199166544375692200
+      spriteID: d35c416ba37b331c0800000000000000
+      internalID: -4525071737786415811
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bluebutton_idle_0: 9199166544375692200
+      bluebutton_pressed_lighter_0: -4525071737786415811
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

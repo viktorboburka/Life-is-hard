@@ -26,7 +26,7 @@ public class MoveAlongSpline : MonoBehaviour
 
     public bool doneMoving = true;
 
-    MouthPartHintBehavior hintBehavior;
+    /*[HideInInspector]*/ public MouthPartHintBehavior hintBehavior;
     float showHintAfterIdleSeconds = 5f;
 
     void Start()
@@ -47,10 +47,10 @@ public class MoveAlongSpline : MonoBehaviour
     void HintUpdate() {
         if (!hintBehavior || doneMoving) return;
 
-        if (progress > 0.95f) {
+        /*if (progress > 0.95f) {
             hintBehavior.HideHint();
-        }
-        if (/*lastKeyPressedTime + showHintAfterIdleSeconds < Time.timeSinceLevelLoad && */ progress < 0.90f ) {
+        }*/
+        if (progress < 0.90f ) {
             hintBehavior.ShowHint();
         }
         /*if (lastKeyPressedTime + showHintAfterIdleSeconds < Time.timeSinceLevelLoad) {
