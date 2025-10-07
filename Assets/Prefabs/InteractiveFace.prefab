@@ -1207,6 +1207,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3694799943784063171, guid: 9b1347cce173d164c800ffe303e5db1a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 54f15286e37088146834b9e4c7936977, type: 2}
     - target: {fileID: 4635462659638750603, guid: 9b1347cce173d164c800ffe303e5db1a, type: 3}
       propertyPath: m_Name
       value: Smile chainlink (10)
@@ -1713,6 +1717,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3694799943784063171, guid: 9b1347cce173d164c800ffe303e5db1a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 650c01706d14dd74ca7e6c6e73ece88d, type: 2}
     - target: {fileID: 4635462659638750603, guid: 9b1347cce173d164c800ffe303e5db1a, type: 3}
       propertyPath: m_Name
       value: Smile chainlink (9)
@@ -3218,6 +3226,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3694799943784063171, guid: 9b1347cce173d164c800ffe303e5db1a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d7cc28e0d113d534aad9241498d5241c, type: 2}
     - target: {fileID: 4635462659638750603, guid: 9b1347cce173d164c800ffe303e5db1a, type: 3}
       propertyPath: m_Name
       value: Smile chainlink (8)
