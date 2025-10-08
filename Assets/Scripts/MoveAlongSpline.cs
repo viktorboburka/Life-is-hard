@@ -55,17 +55,20 @@ public class MoveAlongSpline : MonoBehaviour
     }
     
     void HintUpdate() {
-        if (!hintBehavior || doneMoving)  {
-            hintBehavior?.HideHint();
+        if (!hintBehavior)  {
+            return;
+        }
+        if (doneMoving) {
+            //hintBehavior.HideHint();
             return;
         }
 
         /*if (progress > 0.95f) {
             hintBehavior.HideHint();
         }*/
-        if (progress < 0.90f ) {
-            hintBehavior.ShowHint();
-        }
+        //if (progress < 0.90f ) {
+            hintBehavior?.ShowHint();
+        //}
         /*if (lastKeyPressedTime + showHintAfterIdleSeconds < Time.timeSinceLevelLoad) {
             hintBehavior.ShowHint();
         }
