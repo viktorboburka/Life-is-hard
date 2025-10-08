@@ -1,11 +1,21 @@
 using System;
 using UnityEngine;
 using UnityEngine.Splines;
+using UnityEngine.InputSystem;
 
 public class MoveAlongSpline : MonoBehaviour
 {
 
     [SerializeField] KeyCode key;
+    [SerializeField] btnEnum btnIdx = btnEnum.X;
+    enum btnEnum {
+        X,
+        Y,
+        A,
+        B,
+        RT
+    }
+    //UnityEngine.InputSystem.Controls.ButtonControl gamepadButtonControl;
     bool lastKeyPressed;
     float lastKeyPressedTime = -Mathf.Infinity;
     public float progress = 0f;
@@ -45,7 +55,10 @@ public class MoveAlongSpline : MonoBehaviour
     }
     
     void HintUpdate() {
-        if (!hintBehavior || doneMoving) return;
+        if (!hintBehavior || doneMoving)  {
+            hintBehavior?.HideHint();
+            return;
+        }
 
         /*if (progress > 0.95f) {
             hintBehavior.HideHint();
@@ -66,7 +79,25 @@ public class MoveAlongSpline : MonoBehaviour
             splineAnimate.ElapsedTime = progress;
             return;
         }
-        bool currentKeyPress = Input.GetKeyDown(key);
+        bool currentBtnPress = false;
+        switch (btnIdx) {
+            case btnEnum.X:
+                currentBtnPress = Gamepad.current.buttonWest.wasPressedThisFrame;
+                break;
+            case btnEnum.Y:
+                currentBtnPress = Gamepad.current.buttonNorth.wasPressedThisFrame;
+                break;
+            case btnEnum.A:
+                currentBtnPress = Gamepad.current.buttonSouth.wasPressedThisFrame;
+                break;
+            case btnEnum.B:
+                currentBtnPress = Gamepad.current.buttonEast.wasPressedThisFrame;
+                break;
+            case btnEnum.RT:
+                currentBtnPress = Gamepad.current.rightTrigger.wasPressedThisFrame;
+                break;
+        }
+        bool currentKeyPress = Input.GetKeyDown(key) || currentBtnPress;
         if (currentKeyPress) {
             lastKeyPressedTime = Time.timeSinceLevelLoad;
             tapSpeed += tapAcceleration;
