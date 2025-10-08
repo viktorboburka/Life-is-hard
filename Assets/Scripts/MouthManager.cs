@@ -75,6 +75,12 @@ public class MouthManager : MonoBehaviour
             piece.doneMoving = true;
             piece.hintBehavior?.HideHint();
             DOVirtual.DelayedCall(0.1f, () => piece.hintBehavior?.HideHint());
+            DOVirtual.DelayedCall(0.2f, () => piece.hintBehavior?.HideHint());
+            DOVirtual.DelayedCall(0.3f, () => piece.hintBehavior?.HideHint());
+            DOVirtual.DelayedCall(0.4f, () => piece.hintBehavior?.HideHint());
+            DOVirtual.DelayedCall(1.5f, () => piece.hintBehavior?.HideHint());
+            DOVirtual.DelayedCall(4f, () => piece.hintBehavior?.HideHint());
+
         }
         successSound.Play();
         DOVirtual.DelayedCall(1.0f, () => SoundManager.Instance.PlayCameraSound());
