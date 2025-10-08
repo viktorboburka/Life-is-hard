@@ -83,22 +83,24 @@ public class MoveAlongSpline : MonoBehaviour
             return;
         }
         bool currentBtnPress = false;
-        switch (btnIdx) {
-            case btnEnum.X:
-                currentBtnPress = Gamepad.current.buttonWest.wasPressedThisFrame;
-                break;
-            case btnEnum.Y:
-                currentBtnPress = Gamepad.current.buttonNorth.wasPressedThisFrame;
-                break;
-            case btnEnum.A:
-                currentBtnPress = Gamepad.current.buttonSouth.wasPressedThisFrame;
-                break;
-            case btnEnum.B:
-                currentBtnPress = Gamepad.current.buttonEast.wasPressedThisFrame;
-                break;
-            case btnEnum.RT:
-                currentBtnPress = Gamepad.current.rightTrigger.wasPressedThisFrame;
-                break;
+        if (Gamepad.current != null) {
+            switch (btnIdx) {
+                case btnEnum.X:
+                    currentBtnPress = Gamepad.current.buttonWest.wasPressedThisFrame;
+                    break;
+                case btnEnum.Y:
+                    currentBtnPress = Gamepad.current.buttonNorth.wasPressedThisFrame;
+                    break;
+                case btnEnum.A:
+                    currentBtnPress = Gamepad.current.buttonSouth.wasPressedThisFrame;
+                    break;
+                case btnEnum.B:
+                    currentBtnPress = Gamepad.current.buttonEast.wasPressedThisFrame;
+                    break;
+                case btnEnum.RT:
+                    currentBtnPress = Gamepad.current.rightTrigger.wasPressedThisFrame;
+                    break;
+            }
         }
         bool currentKeyPress = Input.GetKeyDown(key) || currentBtnPress;
         if (currentKeyPress) {
