@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using Febucci.UI.Effects;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -8,7 +10,7 @@ using UnityEngine.UI;
 
 public class MenuSceneManager : MonoBehaviour
 {
-    
+
     public static MenuSceneManager Instance;
     [SerializeField] AudioSource outroMonologue;
     [SerializeField] AudioSource writingSound;
@@ -26,7 +28,9 @@ public class MenuSceneManager : MonoBehaviour
     [SerializeField] GameObject restartButton;
 
 
-    [System.Serializable] public class MonologueListWrapper {
+    [System.Serializable]
+    public class MonologueListWrapper
+    {
         public List<TextMeshProUGUI> subtitles;
         public List<float> durations;
     }
@@ -48,7 +52,7 @@ public class MenuSceneManager : MonoBehaviour
         fade.color = new Color(fade.color.r, fade.color.g, fade.color.b, 1f);
         fade.DOFade(0f, 0.5f);
 
-        if (nextLevelButton != null) nextLevelButton.enabled = false;
+        //if (nextLevelButton != null) nextLevelButton.enabled = false;
     }
 
     void Start()
@@ -62,21 +66,29 @@ public class MenuSceneManager : MonoBehaviour
         Debug.Log("playing outro monologue");
         outroMonologue.Play();
 
+        if (outrosubtitles.Count == 0)
+        {
+            StartCoroutine(nextLevelPostcardWiggle());
+        }
+        
         StartCoroutine(PlayOutroSubtitles());
 
         if (outrosubtitles.Count != 0)
             writingSound.Play();
 
-        DOVirtual.DelayedCall(GetOutroSubtitlesLength(), () => {
-            TriggerLevelEnd(); 
+        DOVirtual.DelayedCall(GetOutroSubtitlesLength(), () =>
+        {
+            TriggerLevelEnd();
             writingSound.Stop();
         });
 
     }
 
-    float GetOutroSubtitlesLength() {
+    float GetOutroSubtitlesLength()
+    {
         float total = 0f;
-        foreach (float duration in outroSubtitlesDurations) {
+        foreach (float duration in outroSubtitlesDurations)
+        {
             total += duration;
         }
         return total;
@@ -91,6 +103,24 @@ public class MenuSceneManager : MonoBehaviour
             yield return new WaitForSeconds(outroSubtitlesDurations[i]);
             //outrosubtitles[i].gameObject.SetActive(false);
         }
+        
+        if (outrosubtitles.Count == 0)
+        {
+            yield break;
+        }
+
+        Vector3 sendPostCardButtonRotation = sendPostcardButton.gameObject.GetComponent<RectTransform>().rotation.eulerAngles;
+        
+        yield return new WaitForSeconds(1f);
+        while (sendPostcardButton.enabled)
+        {
+            sendPostcardButton.gameObject.transform.DORotate(sendPostCardButtonRotation + new Vector3(0, 0, 1.5f), 0.1f).SetEase(Ease.InOutSine).OnComplete(() =>
+            {
+                sendPostcardButton.gameObject.transform.DORotate(sendPostCardButtonRotation, 0.1f).SetEase(Ease.InOutSine);
+            });
+            yield return new WaitForSeconds(3f);
+        }
+        //sendPostcardButton.gameObject.transform.DORotate(sendPostCardButtonRotation + new Vector3(0, 0, 1), 0.2f).SetEase(Ease.InOutBounce);
         //subtitlesContainer.SetActive(false);
     }
 
@@ -111,36 +141,60 @@ public class MenuSceneManager : MonoBehaviour
             SceneManager.LoadScene(idx);
     }
 
-    public void NextScene() {
+    public void NextScene()
+    {
         Debug.Log("Next scene");
         LoadScene(nextSceneIdx);
     }
 
-    public void SendPostCard() {
+    public void SendPostCard()
+    {
         float duration = 2f;
         sendPostcardButton.enabled = false;
         outroPostcard.DOMove(outroPostcard.position + new Vector3(3000, 400, 0), duration).SetEase(Ease.InSine);
-        foreach (TextMeshProUGUI subtitle in outrosubtitles) {
+        foreach (TextMeshProUGUI subtitle in outrosubtitles)
+        {
             var subT = subtitle.GetComponent<RectTransform>();
             subT.DOMove(subT.position + new Vector3(3000, 400, 0), duration).SetEase(Ease.InSine);
             subT.DORotate(new Vector3(0, 0, -30), duration).SetEase(Ease.InSine);
         }
-        outroPostcard.DORotate(new Vector3(0, 0, -30), duration).SetEase(Ease.InSine).OnComplete(() => {
-            if (nextLevelButton != null) 
+        outroPostcard.DORotate(new Vector3(0, 0, -30), duration).SetEase(Ease.InSine).OnComplete(() =>
+        {
+            if (nextLevelButton != null)
+            {
                 nextLevelButton.enabled = true;
+                StartCoroutine(nextLevelPostcardWiggle());
+            }
         });
     }
 
-    public void CloseGame() {
+    IEnumerator nextLevelPostcardWiggle()
+    {
+        yield return new WaitForSeconds(1f);
+        Vector3 nextPostCardButtonRotation = nextLevelButton.gameObject.GetComponent<RectTransform>().rotation.eulerAngles;
+        while (nextLevelButton.enabled)
+        {
+            nextLevelButton.gameObject.transform.DORotate(nextPostCardButtonRotation + new Vector3(0, 0, 1.5f), 0.1f).SetEase(Ease.InOutSine).OnComplete(() =>
+                {
+                    nextLevelButton.gameObject.transform.DORotate(nextPostCardButtonRotation, 0.1f).SetEase(Ease.InOutSine);
+                });
+            yield return new WaitForSeconds(3f);
+        }
+    }
+
+    public void CloseGame()
+    {
         Application.Quit();
     }
 
-    public void RevealCloseAndRestartButtons() {
+    public void RevealCloseAndRestartButtons()
+    {
         if (restartButton == null || closeButton == null) return;
-        DOVirtual.DelayedCall(3f, () => {
+        DOVirtual.DelayedCall(3f, () =>
+        {
             restartButton.SetActive(true);
             closeButton.SetActive(true);
-            
+
             restartButton.GetComponent<Image>().DOFade(1f, 2f);
             closeButton.GetComponent<Image>().DOFade(1f, 2f);
 

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
@@ -15,6 +16,7 @@ public class HoverSwitchSprite : MonoBehaviour
 
     public bool active = true;
     public bool done = false;
+    bool mouseIsOver;
 
 
     void Start()
@@ -34,10 +36,29 @@ public class HoverSwitchSprite : MonoBehaviour
             SoundManager.Instance.PlayClickSound();
             ZoomToFace();
         }
+
+        RefreshSwitchingSprites();
+    }
+
+    private void RefreshSwitchingSprites()
+    {
+        if (!active || done || !MySceneManager.Instance.gameRunning) return;
+        if (mouseIsOver)
+        {
+            hoverSprite.SetActive(true);
+            normalSprite.SetActive(false);
+        }
+        else
+        {
+            hoverSprite.SetActive(false);
+            normalSprite.SetActive(true);
+        }
     }
 
     void OnMouseEnter()
     {
+        mouseIsOver = true;
+        return;
         if (!active || done || !MySceneManager.Instance.gameRunning) return;
         hoverSprite.SetActive(true);
         normalSprite.SetActive(false);
@@ -45,6 +66,8 @@ public class HoverSwitchSprite : MonoBehaviour
 
     void OnMouseExit()
     {
+        mouseIsOver = false;
+        return;
         if (!active || done || !MySceneManager.Instance.gameRunning) return;
         hoverSprite.SetActive(false);
         normalSprite.SetActive(true);
