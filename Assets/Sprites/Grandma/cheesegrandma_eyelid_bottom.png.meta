@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: df403f5e74385db4cb47c0605393e7e7
+guid: ec229815726e6ae4c9090782ee8c744c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -595776249390224898
-    second: S2_toddlerbag_0
+      213: 9125946293987034572
+    second: cheesegrandma_eyelid_bottom_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: S2_toddlerbag_0
+      name: cheesegrandma_eyelid_bottom_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 307
-        height: 293
+        width: 136
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef92b7168a06bb7f0800000000000000
-      internalID: -595776249390224898
+      spriteID: cc5c3649dcfd5ae70800000000000000
+      internalID: 9125946293987034572
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      S2_toddlerbag_0: -595776249390224898
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
