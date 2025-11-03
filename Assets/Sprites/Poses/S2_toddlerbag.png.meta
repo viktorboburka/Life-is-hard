@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      S2_toddlerbag_0: -595776249390224898
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
