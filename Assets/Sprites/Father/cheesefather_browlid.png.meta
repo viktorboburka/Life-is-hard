@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cheesefather_browlid_0: -8908145607629909984
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

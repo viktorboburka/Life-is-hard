@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cheesemother_eyelid_right_0: -1860130154221590397
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

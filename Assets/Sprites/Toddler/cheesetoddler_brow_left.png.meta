@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cheesetoddler_brow_left_0: 3806153781569771012
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
