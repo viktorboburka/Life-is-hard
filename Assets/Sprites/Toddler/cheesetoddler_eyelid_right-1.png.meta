@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cc0ac4a359b9ef84abde05517ed9e09b
+guid: b1297ad0e46eaed4db0779ee3aa8fcc3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5498232582535205571
-    second: cheesetoddler_eye_left_0
+      213: -4639253628261454300
+    second: cheesetoddler_eyelid_right-1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cheesetoddler_eye_left_0
+      name: cheesetoddler_eyelid_right-1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 388
-        height: 185
+        width: 344
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d3da289d89a52b3b0800000000000000
-      internalID: -5498232582535205571
+      spriteID: 42ea888a76f0e9fb0800000000000000
+      internalID: -4639253628261454300
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cheesetoddler_eye_left_0: -5498232582535205571
+      cheesetoddler_eyelid_right-1_0: -4639253628261454300
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
