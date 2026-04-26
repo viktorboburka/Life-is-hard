@@ -84,7 +84,7 @@ public class MenuSceneManager : MonoBehaviour
             && Input.mousePositionDelta.x < 0.0001f && Input.mousePositionDelta.y < 0.0001f)
         {
             lastInputTimer += Time.deltaTime;
-            if (lastInputTimer > 10f && SceneManager.GetActiveScene().buildIndex != 0)
+            if (lastInputTimer > 180f && SceneManager.GetActiveScene().buildIndex != 0)
             {
                 LoadScene(0);
             }

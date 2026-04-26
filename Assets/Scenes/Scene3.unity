@@ -1461,11 +1461,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 641355575393688326, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapMaxSpeed
-      value: 0.07
+      value: 0.075
       objectReference: {fileID: 0}
     - target: {fileID: 641355575393688326, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.007
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 641355575393688326, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
@@ -1509,11 +1509,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1809572390710216064, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapMaxSpeed
-      value: 0.07
+      value: 0.075
       objectReference: {fileID: 0}
     - target: {fileID: 1809572390710216064, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.007
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 1809572390710216064, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
@@ -1569,11 +1569,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2543711166157867225, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapMaxSpeed
-      value: 0.07
+      value: 0.075
       objectReference: {fileID: 0}
     - target: {fileID: 2543711166157867225, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.007
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 2543711166157867225, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
@@ -1617,11 +1617,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2884466093664408490, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapMaxSpeed
-      value: 0.07
+      value: 0.075
       objectReference: {fileID: 0}
     - target: {fileID: 2884466093664408490, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.007
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 2884466093664408490, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
@@ -1693,11 +1693,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4096867837101320577, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapMaxSpeed
-      value: 0.07
+      value: 0.075
       objectReference: {fileID: 0}
     - target: {fileID: 4096867837101320577, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.007
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 4096867837101320577, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
@@ -1797,11 +1797,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5662573336393940530, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapMaxSpeed
-      value: 0.07
+      value: 0.075
       objectReference: {fileID: 0}
     - target: {fileID: 5662573336393940530, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.007
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 5662573336393940530, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
@@ -1849,11 +1849,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6392274679592156032, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapMaxSpeed
-      value: 0.07
+      value: 0.075
       objectReference: {fileID: 0}
     - target: {fileID: 6392274679592156032, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.007
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 6392274679592156032, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
@@ -2005,11 +2005,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7664303929538505124, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapMaxSpeed
-      value: 0.07
+      value: 0.075
       objectReference: {fileID: 0}
     - target: {fileID: 7664303929538505124, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.007
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 7664303929538505124, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
@@ -2089,11 +2089,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8734270510868375440, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapMaxSpeed
-      value: 0.07
+      value: 0.075
       objectReference: {fileID: 0}
     - target: {fileID: 8734270510868375440, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.007
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 8734270510868375440, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
@@ -2125,11 +2125,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9215962076238420160, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapMaxSpeed
-      value: 0.07
+      value: 0.075
       objectReference: {fileID: 0}
     - target: {fileID: 9215962076238420160, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.007
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 9215962076238420160, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
@@ -3121,6 +3121,10 @@ PrefabInstance:
     - target: {fileID: 3613783211018078191, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4278255607
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
+      propertyPath: nextSceneIdx
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4116798190800366163, guid: 38f60d6506f5e124ea2b004c4d25e473, type: 3}
       propertyPath: introsubtitles.Array.size

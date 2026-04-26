@@ -2,13 +2,15 @@ using System;
 using UnityEngine;
 using UnityEngine.Splines;
 using UnityEngine.InputSystem;
+using DG.Tweening;
 
 public class MoveAlongSpline : MonoBehaviour
 {
 
     [SerializeField] KeyCode key;
     [SerializeField] btnEnum btnIdx = btnEnum.X;
-    enum btnEnum {
+    enum btnEnum
+    {
         X,
         Y,
         A,
@@ -29,15 +31,23 @@ public class MoveAlongSpline : MonoBehaviour
 
     [SerializeField] float tapMaxSpeed = 0.15f;
     [SerializeField] float tapMinSpeed = -0.15f;
-    /*[SerializeField]*/ float tapSpeed = 0f;
+    /*[SerializeField]*/
+    float tapSpeed = 0f;
     [SerializeField] float tapAcceleration = 0.003f;
     [SerializeField] float tapDecceleration = 0.005f;
     [SerializeField] float tapDeccelerationWhileMovingUp = 0.015f;
 
     public bool doneMoving = true;
 
-    /*[HideInInspector]*/ public MouthPartHintBehavior hintBehavior;
+    /*[HideInInspector]*/
+    public MouthPartHintBehavior hintBehavior;
     float showHintAfterIdleSeconds = 5f;
+
+    [SerializeField] bool isMenuFace;
+    float noSmileDuration = 10f;
+    float smileDuration = 2f;
+    float lastSmileTime = -Mathf.Infinity;
+    float mouthMovementDuration = 1f;
 
     void Start()
     {
@@ -45,6 +55,31 @@ public class MoveAlongSpline : MonoBehaviour
         splineAnimate = GetComponent<SplineAnimate>();
         hintBehavior = GetComponent<MouthPartHintBehavior>();
         hintBehavior?.SetHint(key);
+
+        if (isMenuFace)
+        {
+            MenuFaceTween();
+        }
+
+    }
+
+
+    void MenuFaceTween()
+    {
+        if (!isMenuFace) return;
+        DOVirtual.DelayedCall(noSmileDuration, () =>
+        {
+            DOTween.To(() => progress, x => progress = x, 0.999f, mouthMovementDuration).OnComplete(() =>
+            {
+                DOVirtual.DelayedCall(smileDuration, () =>
+                {
+                    DOTween.To(() => progress, x => progress = x, 0f, mouthMovementDuration).OnComplete(() =>
+                    {
+                        MenuFaceTween();
+                    });
+                });
+            });
+        });
     }
 
     void Update()
@@ -53,12 +88,15 @@ public class MoveAlongSpline : MonoBehaviour
         //HoldControlsUpdate();
         TapControlsUpdate();
     }
-    
-    void HintUpdate() {
-        if (!hintBehavior)  {
+
+    void HintUpdate()
+    {
+        if (!hintBehavior)
+        {
             return;
         }
-        if (doneMoving) {
+        if (doneMoving)
+        {
             //hintBehavior.HideHint();
             return;
         }
@@ -67,7 +105,7 @@ public class MoveAlongSpline : MonoBehaviour
             hintBehavior.HideHint();
         }*/
         //if (progress < 0.90f ) {
-            hintBehavior?.ShowHint();
+        hintBehavior?.ShowHint();
         //}
         /*if (lastKeyPressedTime + showHintAfterIdleSeconds < Time.timeSinceLevelLoad) {
             hintBehavior.ShowHint();
@@ -77,14 +115,18 @@ public class MoveAlongSpline : MonoBehaviour
         }*/
     }
 
-    void TapControlsUpdate() {
-        if (doneMoving) {
+    void TapControlsUpdate()
+    {
+        if (doneMoving)
+        {
             splineAnimate.ElapsedTime = progress;
             return;
         }
         bool currentBtnPress = false;
-        if (Gamepad.current != null) {
-            switch (btnIdx) {
+        if (Gamepad.current != null)
+        {
+            switch (btnIdx)
+            {
                 case btnEnum.X:
                     currentBtnPress = Gamepad.current.buttonWest.wasPressedThisFrame;
                     break;
@@ -103,7 +145,8 @@ public class MoveAlongSpline : MonoBehaviour
             }
         }
         bool currentKeyPress = Input.GetKeyDown(key) || currentBtnPress;
-        if (currentKeyPress) {
+        if (currentKeyPress)
+        {
             lastKeyPressedTime = Time.timeSinceLevelLoad;
             tapSpeed += tapAcceleration;
             if (progress < 0.01f) tapSpeed *= 1.5f;
@@ -113,7 +156,8 @@ public class MoveAlongSpline : MonoBehaviour
 
             SoundManager.Instance.PlayLetterClickSound();
         }
-        else {
+        else
+        {
             //decceleration is 2x faster if the lip is moving up
             if (tapSpeed > 0f) tapSpeed -= tapDeccelerationWhileMovingUp * Time.deltaTime;
             else tapSpeed -= tapDecceleration * Time.deltaTime;
@@ -133,13 +177,16 @@ public class MoveAlongSpline : MonoBehaviour
 
     void HoldControlsUpdate()
     {
-        if (doneMoving) {
+        if (doneMoving)
+        {
             splineAnimate.ElapsedTime = progress;
             return;
         }
         bool currentKeyPress = Input.GetKey(key);
-        if (currentKeyPress) {
-            if (!lastKeyPressed) {
+        if (currentKeyPress)
+        {
+            if (!lastKeyPressed)
+            {
                 speed = 0f;
             }
             speed += acceleration * Time.deltaTime;
@@ -147,8 +194,10 @@ public class MoveAlongSpline : MonoBehaviour
 
             progress += speed;
         }
-        else {
-            if (lastKeyPressed) {
+        else
+        {
+            if (lastKeyPressed)
+            {
                 speed = 0f;
             }
             speed += acceleration * Time.deltaTime;
