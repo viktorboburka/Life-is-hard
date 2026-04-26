@@ -35,6 +35,10 @@ public class MySceneManager : MonoBehaviour
 
     public bool gameRunning;
 
+    const bool FESTIVAL_BUILD = true;
+    float lastInputTimer = 0f;
+
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -47,6 +51,12 @@ public class MySceneManager : MonoBehaviour
         }
         fade.color = new Color(fade.color.r, fade.color.g, fade.color.b, 1f);
         fade.DOFade(0f, 0.5f);
+        if (!FESTIVAL_BUILD) {
+            foreach (FestivalBuildOnly festivalBuildOnly in FindObjectsOfType<FestivalBuildOnly>())
+            {
+                festivalBuildOnly.gameObject.SetActive(false);
+            }
+        }
     }
 
     void Start()
@@ -61,6 +71,28 @@ public class MySceneManager : MonoBehaviour
         {
             if (gameRunning && Camera.main.GetComponent<CameraControls>().transitioning == false)
                 TriggerLevelEnd();
+        }
+        if (FESTIVAL_BUILD)
+        {
+            CheckGameIdling();
+        }
+    }
+
+    void CheckGameIdling()
+    {
+        //Debug.Log("last input timer: " + lastInputTimer);
+        if (!Input.anyKeyDown && !Input.GetMouseButtonDown(0) && !Input.GetMouseButtonDown(1)
+            && Input.mousePositionDelta.x < 0.0001f && Input.mousePositionDelta.y < 0.0001f)
+        {
+            lastInputTimer += Time.deltaTime;
+            if (lastInputTimer > 10f && SceneManager.GetActiveScene().buildIndex != 0)
+            {
+                LoadScene(0);
+            }
+        }
+        else
+        {
+            lastInputTimer = 0f;
         }
     }
 

@@ -5,6 +5,7 @@ using DG.Tweening;
 using Febucci.UI.Effects;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -26,6 +27,9 @@ public class MenuSceneManager : MonoBehaviour
 
     [SerializeField] GameObject closeButton;
     [SerializeField] GameObject restartButton;
+
+    const bool FESTIVAL_BUILD = true;
+    float lastInputTimer = 0f;
 
 
     [System.Serializable]
@@ -51,13 +55,44 @@ public class MenuSceneManager : MonoBehaviour
         }
         fade.color = new Color(fade.color.r, fade.color.g, fade.color.b, 1f);
         fade.DOFade(0f, 0.5f);
-
+        if (!FESTIVAL_BUILD) {
+            foreach (FestivalBuildOnly festivalBuildOnly in FindObjectsOfType<FestivalBuildOnly>())
+            {
+                festivalBuildOnly.gameObject.SetActive(false);
+            }
+        }
         //if (nextLevelButton != null) nextLevelButton.enabled = false;
     }
 
     void Start()
     {
         TriggerLevelStart();
+    }
+
+    void Update()
+    {
+        if (FESTIVAL_BUILD)
+        {
+            CheckGameIdling();
+        }
+    }
+
+    void CheckGameIdling()
+    {
+        //Debug.Log("last input timer: " + lastInputTimer);
+        if (!Input.anyKeyDown && !Input.GetMouseButtonDown(0) && !Input.GetMouseButtonDown(1)
+            && Input.mousePositionDelta.x < 0.0001f && Input.mousePositionDelta.y < 0.0001f)
+        {
+            lastInputTimer += Time.deltaTime;
+            if (lastInputTimer > 10f && SceneManager.GetActiveScene().buildIndex != 0)
+            {
+                LoadScene(0);
+            }
+        }
+        else
+        {
+            lastInputTimer = 0f;
+        }
     }
 
     void TriggerLevelStart()
@@ -70,7 +105,7 @@ public class MenuSceneManager : MonoBehaviour
         {
             StartCoroutine(nextLevelPostcardWiggle());
         }
-        
+
         StartCoroutine(PlayOutroSubtitles());
 
         if (outrosubtitles.Count != 0)
@@ -103,14 +138,14 @@ public class MenuSceneManager : MonoBehaviour
             yield return new WaitForSeconds(outroSubtitlesDurations[i]);
             //outrosubtitles[i].gameObject.SetActive(false);
         }
-        
+
         if (outrosubtitles.Count == 0)
         {
             yield break;
         }
 
         Vector3 sendPostCardButtonRotation = sendPostcardButton.gameObject.GetComponent<RectTransform>().rotation.eulerAngles;
-        
+
         yield return new WaitForSeconds(1f);
         while (sendPostcardButton.enabled)
         {
@@ -189,14 +224,19 @@ public class MenuSceneManager : MonoBehaviour
 
     public void RevealCloseAndRestartButtons()
     {
-        if (restartButton == null || closeButton == null) return;
+        //if (restartButton == null || closeButton == null) return;
         DOVirtual.DelayedCall(3f, () =>
         {
-            restartButton.SetActive(true);
-            closeButton.SetActive(true);
-
-            restartButton.GetComponent<Image>().DOFade(1f, 2f);
-            closeButton.GetComponent<Image>().DOFade(1f, 2f);
+            if (restartButton != null)
+            {
+                restartButton.SetActive(true);
+                restartButton.GetComponent<Image>().DOFade(1f, 2f);
+            }
+            if (closeButton != null || !FESTIVAL_BUILD)
+            {
+                closeButton.SetActive(true);
+                closeButton.GetComponent<Image>().DOFade(1f, 2f);
+            }
 
         });
     }
