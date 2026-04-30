@@ -531,11 +531,33 @@
                 },
                 {
                     "name": "",
+                    "id": "c0431e8a-570a-4032-8ad3-2f67d1b83945",
+                    "path": "<Joystick>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Q",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "414be153-0a11-4172-b08f-06acbfadbeed",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse;Gamepad;Touch;Joystick;XR",
+                    "action": "A",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4cf33e7a-147b-4eef-a46f-acb09a890ec0",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "A",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -553,6 +575,17 @@
                 },
                 {
                     "name": "",
+                    "id": "ea956323-5259-400a-8fc3-fe2a94315719",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Space",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "760d53c5-521f-42d7-b338-a4f63521f366",
                     "path": "<Keyboard>/l",
                     "interactions": "",
@@ -564,11 +597,33 @@
                 },
                 {
                     "name": "",
+                    "id": "f17fe2e1-65c7-425b-bbcf-aba71d355b4a",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "49565a4c-cbe0-4a2c-ab35-0fb9ae488694",
                     "path": "<Keyboard>/p",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad;Keyboard&Mouse;Touch;Joystick;XR",
+                    "action": "P",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "61edf387-1754-4c16-a65d-69870f8bb278",
+                    "path": "<HID::DragonRise Inc.   Generic   USB  Joystick  >/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "P",
                     "isComposite": false,
                     "isPartOfComposite": false
