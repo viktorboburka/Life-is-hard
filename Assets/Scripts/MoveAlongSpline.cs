@@ -65,16 +65,6 @@ public class MoveAlongSpline : MonoBehaviour
 
     }
 
-    void OnEnable()
-    {
-        inputActionReference.action.started += OnKeyPressed;
-    }
-
-    void OnDisable()
-    {
-        inputActionReference.action.started -= OnKeyPressed;
-    }
-
     void MenuFaceTween()
     {
         if (!isMenuFace) return;
@@ -192,11 +182,6 @@ public class MoveAlongSpline : MonoBehaviour
         splineAnimate.ElapsedTime = progress;
 
         lastKeyPressed = Input.GetKey(key);
-    }
-
-    void OnKeyPressed(InputAction.CallbackContext context)
-    {
-        
     }
 
     void HoldControlsUpdate()
