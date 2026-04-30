@@ -1640,11 +1640,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 641355575393688326, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.008
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 641355575393688326, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
-      value: 0.015
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 641355575393688326, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDeccelerationWhileMovingUp
@@ -1696,11 +1696,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1809572390710216064, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.008
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1809572390710216064, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
-      value: 0.015
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 1809572390710216064, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDeccelerationWhileMovingUp
@@ -1840,11 +1840,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2543711166157867225, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.008
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 2543711166157867225, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
-      value: 0.015
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 2543711166157867225, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDeccelerationWhileMovingUp
@@ -1880,11 +1880,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2884466093664408490, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.008
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 2884466093664408490, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
-      value: 0.015
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 2884466093664408490, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDeccelerationWhileMovingUp
@@ -2072,11 +2072,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4096867837101320577, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.008
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 4096867837101320577, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
-      value: 0.015
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 4096867837101320577, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDeccelerationWhileMovingUp
@@ -2176,11 +2176,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5662573336393940530, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.008
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 5662573336393940530, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
-      value: 0.015
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 5662573336393940530, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDeccelerationWhileMovingUp
@@ -2316,11 +2316,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6392274679592156032, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.008
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 6392274679592156032, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
-      value: 0.015
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 6392274679592156032, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDeccelerationWhileMovingUp
@@ -2592,11 +2592,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7664303929538505124, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.008
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 7664303929538505124, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
-      value: 0.015
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 7664303929538505124, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDeccelerationWhileMovingUp
@@ -2676,11 +2676,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8734270510868375440, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.008
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 8734270510868375440, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
-      value: 0.015
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 8734270510868375440, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDeccelerationWhileMovingUp
@@ -2716,11 +2716,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9215962076238420160, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapAcceleration
-      value: 0.008
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 9215962076238420160, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDecceleration
-      value: 0.015
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 9215962076238420160, guid: 1ef1db2b180785041b6ce03041544757, type: 3}
       propertyPath: tapDeccelerationWhileMovingUp
