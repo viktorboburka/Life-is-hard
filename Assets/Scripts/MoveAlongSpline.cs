@@ -8,6 +8,7 @@ public class MoveAlongSpline : MonoBehaviour
 {
 
     [SerializeField] KeyCode key;
+    [SerializeField] InputActionReference inputActionReference;
     [SerializeField] btnEnum btnIdx = btnEnum.X;
     enum btnEnum
     {
@@ -55,6 +56,7 @@ public class MoveAlongSpline : MonoBehaviour
         splineAnimate = GetComponent<SplineAnimate>();
         hintBehavior = GetComponent<MouthPartHintBehavior>();
         hintBehavior?.SetHint(key);
+        inputActionReference.action.Enable();
 
         if (isMenuFace)
         {
@@ -63,6 +65,15 @@ public class MoveAlongSpline : MonoBehaviour
 
     }
 
+    void OnEnable()
+    {
+        inputActionReference.action.started += OnKeyPressed;
+    }
+
+    void OnDisable()
+    {
+        inputActionReference.action.started -= OnKeyPressed;
+    }
 
     void MenuFaceTween()
     {
@@ -122,7 +133,7 @@ public class MoveAlongSpline : MonoBehaviour
             splineAnimate.ElapsedTime = progress;
             return;
         }
-        bool currentBtnPress = false;
+        /*bool currentBtnPress = false;
         if (Gamepad.current != null)
         {
             switch (btnIdx)
@@ -144,7 +155,16 @@ public class MoveAlongSpline : MonoBehaviour
                     break;
             }
         }
-        bool currentKeyPress = Input.GetKeyDown(key) || currentBtnPress;
+        bool currentKeyPress = Input.GetKeyDown(key) || currentBtnPress;*/
+        if (inputActionReference == null)
+        {
+            Debug.LogWarning("InputActionReference is not assigned.");
+            return;
+        }
+        bool currentKeyPress = inputActionReference.action.WasPressedThisFrame();
+        Debug.Log("currentKeyPress: " + currentKeyPress);
+        if (currentKeyPress) Debug.Log("Input triggered.");
+
         if (currentKeyPress)
         {
             lastKeyPressedTime = Time.timeSinceLevelLoad;
@@ -172,7 +192,11 @@ public class MoveAlongSpline : MonoBehaviour
         splineAnimate.ElapsedTime = progress;
 
         lastKeyPressed = Input.GetKey(key);
+    }
 
+    void OnKeyPressed(InputAction.CallbackContext context)
+    {
+        
     }
 
     void HoldControlsUpdate()
